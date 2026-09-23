@@ -5,34 +5,53 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - firstmall
+  server: 104.18.46.234
+  port: 80
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - firstmall
+  server: 162.159.39.218
+  port: 8080
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - firstmall
+  server: 172.64.158.146
+  port: 2095
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: '/?ed=2560security=tls '
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - firstmall
   server: 46.29.163.78
   port: 20090
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 6b39ae3234dfd68b
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - firstmall
-  server: 103.136.150.119
-  port: 10090
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 72553320ae6bcc8f
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - firstmall
-  server: 181.215.18.196
-  port: 1080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: manm1wouaeic9db3
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - firstmall
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - firstmall
   server: sth.free-outline.giize.com
   port: 1081
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: wwj19enpp68px8t7
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - firstmall
+  password: uez5t2b4575tgkoi
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - firstmall
   server: 47.240.80.220
   port: 2052
   udp: true
@@ -40,23 +59,7 @@ proxies:
   password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   sni: vpn.12169.top
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - firstmall
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - firstmall
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - firstmall
   server: 34.96.146.210
   port: 443
   udp: true
@@ -68,6 +71,14 @@ proxies:
     short-id: 56d4e7ae4f86fa39
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - firstmall
+  server: 89.223.95.77
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
 - name: 🇭🇰 中国香港 (Hong Kong) 09 - firstmall
   server: hk-1.gsafevpnapi.com
   port: 20270
@@ -82,37 +93,50 @@ proxies:
   servername: www.yahoo.com
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 10 - firstmall
-  server: 202.146.222.89
+  server: 47.76.172.190
+  port: 443
+  udp: true
+  type: vless
+  uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 9nukDgL8dc3PWV07DAwi-_FFj3Y25ifYnnrIp7uV0SI
+    short-id: 92ddbafbf38306f5
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - firstmall
+  server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fclashv8
+  sni: t.me
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - firstmall
-  server: champion.xn--kivt58h.lol
-  port: 80
-  udp: true
-  type: vless
-  uuid: b5af4a3d-f525-43aa-9cc3-de1ba437e4ed
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 12 - firstmall
-  server: 34.92.145.185
+  server: hk4.miyazono-kaori.com
   port: 443
   udp: true
   type: vless
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+  uuid: ff8d05b5-4aec-40cc-86a1-ccfbcf811fea
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: 64b3f192fc0669e1
-  servername: www.cloudflare.com
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  servername: hk4e-launcher-static.hoyoverse.com
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 13 - firstmall
+  server: nas.aizhzo.com
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - firstmall
   server: 47.239.6.251
   port: 13779
   udp: true
@@ -125,32 +149,26 @@ proxies:
     short-id: af1bdd293097b664
   servername: tesla.com
   client-fingerprint: random
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - firstmall
-  server: nas.aizhzo.com
-  port: 5010
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - firstmall
+  server: 202.146.222.89
+  port: 443
   udp: true
   type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - firstmall
-  server: 89.223.95.77
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
 - name: 🇭🇰 中国香港 (Hong Kong) 16 - firstmall
-  server: mz.hkychina.com
+  server: 31.58.181.88
   port: 8443
   udp: true
-  type: hysteria2
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
-  skip-cert-verify: false
+  type: vless
+  uuid: e16ab346-73be-4fc6-8b6f-511c455b8504
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 17 - firstmall
   server: 2.27.109.179
   port: 45464
@@ -168,42 +186,46 @@ proxies:
   sni: hk2.xiaoliyu.cyou
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 19 - firstmall
-  server: 47.238.210.5
-  port: 13779
-  udp: true
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  servername: tesla.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 20 - firstmall
-  server: 119.246.1.143
-  port: 443
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 21 - firstmall
-  server: 47.242.79.198
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   port: 443
   udp: true
   type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   tls: true
-  servername: ejomsxptp19apygl.v.3dns.vip
+  servername: lcv8v9l7oyamxxfz.v.3dns.vip
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /ws-vmess
+- name: 🇭🇰 中国香港 (Hong Kong) 20 - firstmall
+  server: 103.136.150.119
+  port: 10090
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 72553320ae6bcc8f
+- name: 🇭🇰 中国香港 (Hong Kong) 21 - firstmall
+  server: champion.xn--kivt58h.lol
+  port: 80
+  udp: true
+  type: vless
+  uuid: b5af4a3d-f525-43aa-9cc3-de1ba437e4ed
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
+      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 22 - firstmall
+  server: mz.hkychina.com
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 23 - firstmall
   server: 104.21.8.201
   port: 2096
   udp: true
@@ -218,6 +240,18 @@ proxies:
     path: /f7i3lo6xbs
     headers:
       Host: cdn-hk.skyvora.app
+- name: 🇭🇰 中国香港 (Hong Kong) 24 - firstmall
+  server: 47.238.210.5
+  port: 13779
+  udp: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  tls: true
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  servername: tesla.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -245,6 +279,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 20 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 21 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 22 - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 23 - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 24 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -272,5 +308,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 20 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 21 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 22 - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 23 - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 24 - firstmall
 rules:
 - MATCH,PROXIES

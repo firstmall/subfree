@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - firstmall",
-      "server": "195.238.126.84",
-      "server_port": 9039,
+      "server": "195.238.126.20",
+      "server_port": 9078,
       "method": "aes-256-cfb",
-      "password": "qYEN5HX4JKeVCdEC"
+      "password": "JCJpbRbQZNw9XFZG"
     },
     {
       "type": "shadowsocks",
@@ -23,22 +23,14 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 03 - firstmall",
       "server": "195.238.126.20",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - firstmall",
-      "server": "195.238.126.20",
       "server_port": 9086,
       "method": "aes-256-cfb",
       "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - firstmall",
-      "server": "84.32.215.5",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - firstmall",
+      "server": "84.32.215.94",
       "server_port": 443,
       "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
       "flow": "xtls-rprx-vision",
@@ -47,7 +39,7 @@
         "server_name": "lt.aether-runet.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -57,14 +49,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - firstmall",
-      "server": "195.238.126.20",
-      "server_port": 9008,
-      "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -72,9 +56,7 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 02 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 03 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 04 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 05 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 06 - firstmall"
+        "🇱🇹 立陶宛 (Lithuania) 04 - firstmall"
       ]
     },
     {
@@ -84,9 +66,7 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 02 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 03 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 04 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 05 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 06 - firstmall"
+        "🇱🇹 立陶宛 (Lithuania) 04 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

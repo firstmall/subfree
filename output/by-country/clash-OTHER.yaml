@@ -5,33 +5,53 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - firstmall
-  server: 104.21.3.219
+  server: www.shopify.com
   port: 443
   udp: true
-  type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  type: vmess
+  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: ccs2g.pai50288.uk
+  servername: yoga-suggesting-recording-calls.trycloudflare.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /pai50288
+    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
     headers:
-      Host: ccs2g.pai50288.uk
+      Host: yoga-suggesting-recording-calls.trycloudflare.com
 - name: 🌐 其他地区 (Other) 02 - firstmall
-  server: 104.21.3.219
+  server: www.shopify.com
   port: 443
   udp: true
-  type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: ccs2g.pai50288.uk
+  servername: guanwang.awsno.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /pai50288
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 🌐 其他地区 (Other) 03 - firstmall
+  server: www.shopify.com
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: guanwang.awsno.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +59,7 @@ proxy-groups:
   - AUTO
   - 🌐 其他地区 (Other) 01 - firstmall
   - 🌐 其他地区 (Other) 02 - firstmall
+  - 🌐 其他地区 (Other) 03 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -46,5 +67,6 @@ proxy-groups:
   proxies:
   - 🌐 其他地区 (Other) 01 - firstmall
   - 🌐 其他地区 (Other) 02 - firstmall
+  - 🌐 其他地区 (Other) 03 - firstmall
 rules:
 - MATCH,PROXIES

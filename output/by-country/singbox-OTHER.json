@@ -4,51 +4,63 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - firstmall",
-      "server": "104.21.3.219",
+      "server": "www.shopify.com",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "3aa71202-a099-49c1-99fc-6662f3335369",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "yoga-suggesting-recording-calls.trycloudflare.com",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288",
+        "path": "/3aa71202-a099-49c1-99fc-6662f3335369-vm",
         "headers": {
-          "Host": "ccs2g.pai50288.uk"
+          "Host": "yoga-suggesting-recording-calls.trycloudflare.com"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 02 - firstmall",
-      "server": "104.21.3.219",
+      "server": "www.shopify.com",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1",
-          "h3"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "guanwang.awsno.com",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288"
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 03 - firstmall",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "guanwang.awsno.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
       }
     },
     {
@@ -57,7 +69,8 @@
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - firstmall",
-        "🌐 其他地区 (Other) 02 - firstmall"
+        "🌐 其他地区 (Other) 02 - firstmall",
+        "🌐 其他地区 (Other) 03 - firstmall"
       ]
     },
     {
@@ -65,7 +78,8 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - firstmall",
-        "🌐 其他地区 (Other) 02 - firstmall"
+        "🌐 其他地区 (Other) 02 - firstmall",
+        "🌐 其他地区 (Other) 03 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
