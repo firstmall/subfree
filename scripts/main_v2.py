@@ -67,7 +67,7 @@ SOURCE_URLS = [
     "https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt",
     "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml",
     # "https://raw.githubusercontent.com/twj0/subseek/refs/heads/master/data/sub_github.txt",
-    “https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top50.txt”,
+    "https://raw.githubusercontent.com/LancelotRar/best-cf-ips/main/best-cf-ip-scanned-top50.txt",
     "https://raw.githubusercontent.com/yuanxiawan/cfipv4db/refs/heads/main/cfip.txt",
 ]
 
