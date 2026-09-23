@@ -14,10 +14,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 02 - firstmall",
-      "server": "108.181.121.226",
+      "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
+      "password": "qItG8SueYQcP"
     },
     {
       "type": "vless",
@@ -30,7 +30,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -48,8 +48,16 @@
       "security": "auto"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 05 - firstmall",
+      "server": "108.181.121.226",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WSyL4XTwNsdv"
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 06 - firstmall",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -59,7 +67,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -67,14 +75,6 @@
           "short_id": "0dfc23fe80778c00"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - firstmall",
-      "server": "140.174.184.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
     },
     {
       "type": "vless",
@@ -98,6 +98,23 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇪🇸 西班牙 (Spain) 08 - firstmall",
+      "server": "mygptagent.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "mygptagent.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -108,7 +125,8 @@
         "🇪🇸 西班牙 (Spain) 04 - firstmall",
         "🇪🇸 西班牙 (Spain) 05 - firstmall",
         "🇪🇸 西班牙 (Spain) 06 - firstmall",
-        "🇪🇸 西班牙 (Spain) 07 - firstmall"
+        "🇪🇸 西班牙 (Spain) 07 - firstmall",
+        "🇪🇸 西班牙 (Spain) 08 - firstmall"
       ]
     },
     {
@@ -121,7 +139,8 @@
         "🇪🇸 西班牙 (Spain) 04 - firstmall",
         "🇪🇸 西班牙 (Spain) 05 - firstmall",
         "🇪🇸 西班牙 (Spain) 06 - firstmall",
-        "🇪🇸 西班牙 (Spain) 07 - firstmall"
+        "🇪🇸 西班牙 (Spain) 07 - firstmall",
+        "🇪🇸 西班牙 (Spain) 08 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
