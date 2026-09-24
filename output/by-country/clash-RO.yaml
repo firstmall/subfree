@@ -13,7 +13,7 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   skip-cert-verify: false
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - firstmall
-  server: 85.204.107.183
+  server: 85.204.107.184
   port: 8443
   udp: true
   type: hysteria2
@@ -21,6 +21,14 @@ proxies:
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - firstmall
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: whatsapp.com
+  skip-cert-verify: true
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - firstmall
   server: 46.28.67.55
   port: 443
   udp: true
@@ -32,8 +40,8 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - firstmall
+  client-fingerprint: random
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - firstmall
   server: 146.70.124.85
   port: 443
   udp: true
@@ -45,15 +53,7 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - firstmall
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: www.amazon.com
-  skip-cert-verify: true
+  client-fingerprint: edge
 - name: 🇷🇴 罗马尼亚 (Romania) 06 - firstmall
   server: 193.163.203.253
   port: 443
@@ -66,14 +66,7 @@ proxies:
     public-key: gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk
     short-id: 5ee019e02e6ed99a
   servername: yandex.ru
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 07 - firstmall
-  server: bogging-eyeteeth-fly.freesocks.work
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,7 +78,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 04 - firstmall
   - 🇷🇴 罗马尼亚 (Romania) 05 - firstmall
   - 🇷🇴 罗马尼亚 (Romania) 06 - firstmall
-  - 🇷🇴 罗马尼亚 (Romania) 07 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -97,6 +89,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 04 - firstmall
   - 🇷🇴 罗马尼亚 (Romania) 05 - firstmall
   - 🇷🇴 罗马尼亚 (Romania) 06 - firstmall
-  - 🇷🇴 罗马尼亚 (Romania) 07 - firstmall
 rules:
 - MATCH,PROXIES
