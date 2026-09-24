@@ -4,21 +4,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇧 英国 (United Kingdom) 01 (家宽) - firstmall
-  server: 162.159.153.4
-  port: 443
+- name: 🇺🇸 美国 (United States) 01 (家宽) - firstmall
+  server: 172.64.158.146
+  port: 2082
   udp: true
   type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tlssecurity=tls
     headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall
   server: 36.224.141.124
   port: 50099
@@ -26,35 +22,7 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - firstmall
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: 980df025-74b9-4853-93e8-fb813006d7e5
-  tls: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇺🇸 美国 (United States) 04 (家宽) - firstmall
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-44890b90d17e
-  tls: true
-  servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
-    headers:
-      Host: afzoybehu2ws.vtzv4xe1un6s.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - firstmall
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall
   server: hinet1.2yly.com
   port: 24215
   udp: true
@@ -64,43 +32,22 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: safari
-- name: 🇯🇵 日本 (Japan) 06 (家宽) - firstmall
-  server: 178.83.110.32
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 9bb71136-2380-4b6a-97be-1d4ba11d5a55
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇬🇧 英国 (United Kingdom) 01 (家宽) - firstmall
+  - 🇺🇸 美国 (United States) 01 (家宽) - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall
-  - 🇯🇵 日本 (Japan) 03 (家宽) - firstmall
-  - 🇺🇸 美国 (United States) 04 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - firstmall
-  - 🇯🇵 日本 (Japan) 06 (家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇧 英国 (United Kingdom) 01 (家宽) - firstmall
+  - 🇺🇸 美国 (United States) 01 (家宽) - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall
-  - 🇯🇵 日本 (Japan) 03 (家宽) - firstmall
-  - 🇺🇸 美国 (United States) 04 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - firstmall
-  - 🇯🇵 日本 (Japan) 06 (家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall
 rules:
 - MATCH,PROXIES
