@@ -5,54 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - firstmall
-  server: 188.114.98.16
-  port: 2082
-  udp: true
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.harmonica02.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  network: ws
-  ws-opts:
-    path: /axch1mttbxz2k55y01
-    headers:
-      Host: index.harmonica01.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 03 - firstmall
-  server: 104.21.70.21
-  port: 443
-  udp: true
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  tls: true
-  servername: index.harmonica01.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /axch1mttbxz2k55y01
-    headers:
-      Host: index.harmonica01.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  server: 206.1.98.34
-  port: 26066
-  udp: true
-  type: vmess
-  uuid: Nitro_Skybot@
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇹🇷 土耳其 (Turkey) 05 - firstmall
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -64,7 +16,7 @@ proxies:
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 06 - firstmall
+- name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
   server: 78.135.73.47
   port: 443
   udp: true
@@ -76,8 +28,8 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 07 - firstmall
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 03 - firstmall
   server: 153.56.210.210
   port: 443
   udp: true
@@ -90,6 +42,16 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
+  server: me17.msjia8844.site
+  port: 7443
+  udp: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,9 +61,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - firstmall
   - 🇹🇷 土耳其 (Turkey) 03 - firstmall
   - 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 07 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -111,8 +70,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - firstmall
   - 🇹🇷 土耳其 (Turkey) 03 - firstmall
   - 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 07 - firstmall
 rules:
 - MATCH,PROXIES
