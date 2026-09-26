@@ -6,30 +6,7 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - firstmall",
-      "server": "chatgpt.com",
-      "server_port": 443,
-      "uuid": "a43a9a45-7387-4faf-ad06-24b1ae181fdc",
-      "tls": {
-        "enabled": true,
-        "server_name": "snowy-glade-85fa.arshiatakalloo88.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiVzg3NkFVRjZaUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "snowy-glade-85fa.arshiatakalloo88.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 02 - firstmall",
-      "server": "193.56.135.212",
+      "server": "193.56.135.137",
       "server_port": 9543,
       "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
       "flow": "xtls-rprx-vision",
@@ -52,16 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - firstmall",
-        "🇮🇶 IQ 02 - firstmall"
+        "🇮🇶 IQ 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - firstmall",
-        "🇮🇶 IQ 02 - firstmall"
+        "🇮🇶 IQ 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
