@@ -5,67 +5,74 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - firstmall
+  server: 103.136.150.31
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cWNji5EJFu4eC5O3
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - firstmall
+  server: 47.240.80.220
+  port: 2052
+  udp: true
+  type: trojan
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  sni: vpn.12169.top
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - firstmall
+  server: 47.244.120.197
+  port: 44867
+  udp: true
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /arki
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - firstmall
+  server: 47.238.210.5
+  port: 13779
+  udp: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  tls: true
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  servername: tesla.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - firstmall
   server: sth.free-outline.giize.com
   port: 1081
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: v7qnj9jvxtnpmj4l
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - firstmall
-  server: 119.246.1.143
-  port: 443
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - firstmall
-  server: 103.149.182.105
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf
-  password: asd123456
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - firstmall
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%80%d2%b9%d2%af
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - firstmall
+  password: ac2jdpwv1zl10jim
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - firstmall
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8
+  sni: vk.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - firstmall
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - firstmall
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - firstmall
-  server: hk2.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: hk2.xiaoliyu.cyou
+  sni: 'off'
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - firstmall
-  server: mz.hkychina.com
-  port: 8443
+  server: 202.146.222.29
+  port: 443
   udp: true
   type: hysteria2
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
-  skip-cert-verify: false
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2%ef%a3%bf%c3%bc%c3%a1
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 09 - firstmall
   server: 2.27.109.179
   port: 45464
@@ -75,31 +82,31 @@ proxies:
   sni: 2.27.109.179.sslip.io
   skip-cert-verify: false
 - name: 🇭🇰 中国香港 (Hong Kong) 10 - firstmall
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - firstmall
-  server: nas.aizhzo.com
-  port: 5010
+  server: mz.hkychina.com
+  port: 8443
   udp: true
   type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: 127.0.0.1
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - firstmall
+  server: hk2.xiaoliyu.cyou
+  port: 4433
+  udp: true
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 - name: 🇭🇰 中国香港 (Hong Kong) 12 - firstmall
-  server: wwafj5lhl6bi8au9.v.3dns.vip
+  server: 119.246.1.143
+  port: 443
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - firstmall
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   port: 443
   udp: true
   type: vmess
@@ -107,7 +114,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -129,6 +136,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 10 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 11 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 12 - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 13 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -146,5 +154,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 10 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 11 - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 12 - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 13 - firstmall
 rules:
 - MATCH,PROXIES
