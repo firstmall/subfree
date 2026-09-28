@@ -5,20 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - firstmall
-  server: 93.190.9.59
-  port: 3090
+  server: 104.21.70.21
+  port: 443
   udp: true
   type: vless
-  uuid: 8ac4b519-287e-4ac0-8c95-4c1721c1ab76
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  tls: true
+  servername: index.harmonica01.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /axch1mttbxz2k55y01
+    headers:
+      Host: index.harmonica01.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  server: 93.190.9.35
+  server: 93.190.9.52
   port: 3090
   udp: true
   type: vless
-  uuid: b55a33d7-83ee-416a-971e-eaaa0c928043
+  uuid: 52e8bce3-b255-486d-beb2-aa1b549c44b1
   network: grpc
   grpc-opts:
     grpc-service-name: vless
@@ -34,7 +40,7 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
   server: 151.241.226.201
   port: 2053

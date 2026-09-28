@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - firstmall",
-      "server": "104.18.15.103",
+      "server": "104.24.34.193",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "d042a74a-c305-4eec-a89f-39a348022c92",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "dry-butterfly-8eb9.tmpgnacio83.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,28 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "ws ",
         "headers": {
-          "Host": "server9.9966338.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - firstmall",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
-      "tls": {
-        "enabled": true,
-        "server_name": "server9.9966338.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/imnotarealherox",
-        "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
         }
       }
     },
@@ -50,16 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - firstmall",
-        "🌐 其他地区 (Other) 02 - firstmall"
+        "🌐 其他地区 (Other) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - firstmall",
-        "🌐 其他地区 (Other) 02 - firstmall"
+        "🌐 其他地区 (Other) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
