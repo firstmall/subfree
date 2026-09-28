@@ -6,32 +6,20 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - firstmall",
-      "server": "104.21.70.21",
-      "server_port": 443,
-      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
-      "tls": {
-        "enabled": true,
-        "server_name": "index.harmonica01.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "185.87.24.168",
+      "server_port": 2085,
+      "uuid": "ea53420b-e8ad-4e9d-ab21-ddd546231e92",
       "transport": {
-        "type": "ws",
-        "path": "/axch1mttbxz2k55y01",
-        "headers": {
-          "Host": "index.harmonica01.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - firstmall",
-      "server": "93.190.9.52",
+      "server": "93.190.9.131",
       "server_port": 3090,
-      "uuid": "52e8bce3-b255-486d-beb2-aa1b549c44b1",
+      "uuid": "dca830a2-3c69-4e1b-bc0b-a2ea22af53ba",
       "transport": {
         "type": "grpc",
         "service_name": "vless"
@@ -40,22 +28,12 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - firstmall",
-      "server": "78.135.73.47",
-      "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.datadoghq.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
-        }
+      "server": "93.190.8.22",
+      "server_port": 3090,
+      "uuid": "dca830a2-3c69-4e1b-bc0b-a2ea22af53ba",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
@@ -79,8 +57,29 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 05 - firstmall",
+      "server": "78.135.73.47",
+      "server_port": 443,
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
+          "short_id": "f46cd3ea3d1eb72d"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - firstmall",
       "server": "me17.msjia8844.site",
       "server_port": 7443,
       "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
@@ -95,6 +94,14 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - firstmall",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16272,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -103,7 +110,9 @@
         "🇹🇷 土耳其 (Turkey) 02 - firstmall",
         "🇹🇷 土耳其 (Turkey) 03 - firstmall",
         "🇹🇷 土耳其 (Turkey) 04 - firstmall",
-        "🇹🇷 土耳其 (Turkey) 05 - firstmall"
+        "🇹🇷 土耳其 (Turkey) 05 - firstmall",
+        "🇹🇷 土耳其 (Turkey) 06 - firstmall",
+        "🇹🇷 土耳其 (Turkey) 07 - firstmall"
       ]
     },
     {
@@ -114,7 +123,9 @@
         "🇹🇷 土耳其 (Turkey) 02 - firstmall",
         "🇹🇷 土耳其 (Turkey) 03 - firstmall",
         "🇹🇷 土耳其 (Turkey) 04 - firstmall",
-        "🇹🇷 土耳其 (Turkey) 05 - firstmall"
+        "🇹🇷 土耳其 (Turkey) 05 - firstmall",
+        "🇹🇷 土耳其 (Turkey) 06 - firstmall",
+        "🇹🇷 土耳其 (Turkey) 07 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

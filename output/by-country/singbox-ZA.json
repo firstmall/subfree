@@ -6,100 +6,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇿🇦 南非 (South Africa) 01 - firstmall",
-      "server": "139.84.247.164",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "tfAcRikawhNoZAhu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 02 - firstmall",
       "server": "102.37.156.224",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "aduB9HGxQHjA2SBMRjkHX6"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 03 - firstmall",
-      "server": "102.133.165.160",
-      "server_port": 16233,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
-    },
-    {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 04 - firstmall",
-      "server": "139.84.245.78",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform107",
-        "headers": {
-          "Host": "platform107.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 05 - firstmall",
-      "server": "139.84.234.100",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform118",
-        "headers": {
-          "Host": "platform118.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 06 - firstmall",
-      "server": "139.84.247.122",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform115",
-        "headers": {
-          "Host": "platform115.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 07 - firstmall",
-      "server": "139.84.249.25",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform102",
-        "headers": {
-          "Host": "platform102.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 08 - firstmall",
-      "server": "139.84.250.125",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 09 - firstmall",
+      "tag": "🇿🇦 南非 (South Africa) 02 - firstmall",
       "server": "139.84.246.240",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -113,7 +27,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 10 - firstmall",
+      "tag": "🇿🇦 南非 (South Africa) 03 - firstmall",
       "server": "139.84.245.154",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -127,21 +41,57 @@
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 11 - firstmall",
-      "server": "139.84.243.189",
+      "tag": "🇿🇦 南非 (South Africa) 04 - firstmall",
+      "server": "139.84.234.100",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform101",
+        "path": "/platform118",
         "headers": {
-          "Host": "platform101.halalkhor.info"
+          "Host": "platform118.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 12 - firstmall",
+      "tag": "🇿🇦 南非 (South Africa) 05 - firstmall",
+      "server": "139.84.245.78",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 06 - firstmall",
+      "server": "139.84.250.125",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇿🇦 南非 (South Africa) 07 - firstmall",
+      "server": "139.84.247.164",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "tfAcRikawhNoZAhu"
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 08 - firstmall",
       "server": "139.84.228.106",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -155,8 +105,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 13 - firstmall",
-      "server": "platform113.golnamakcert.top",
+      "tag": "🇿🇦 南非 (South Africa) 09 - firstmall",
+      "server": "139.84.246.73",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
@@ -169,8 +119,50 @@
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 14 - firstmall",
-      "server": "139.84.250.128",
+      "tag": "🇿🇦 南非 (South Africa) 10 - firstmall",
+      "server": "139.84.249.25",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform102",
+        "headers": {
+          "Host": "platform102.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 11 - firstmall",
+      "server": "platform101.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform101",
+        "headers": {
+          "Host": "platform101.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 12 - firstmall",
+      "server": "139.84.247.122",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform115",
+        "headers": {
+          "Host": "platform115.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 13 - firstmall",
+      "server": "platform109.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
@@ -198,8 +190,7 @@
         "🇿🇦 南非 (South Africa) 10 - firstmall",
         "🇿🇦 南非 (South Africa) 11 - firstmall",
         "🇿🇦 南非 (South Africa) 12 - firstmall",
-        "🇿🇦 南非 (South Africa) 13 - firstmall",
-        "🇿🇦 南非 (South Africa) 14 - firstmall"
+        "🇿🇦 南非 (South Africa) 13 - firstmall"
       ]
     },
     {
@@ -218,8 +209,7 @@
         "🇿🇦 南非 (South Africa) 10 - firstmall",
         "🇿🇦 南非 (South Africa) 11 - firstmall",
         "🇿🇦 南非 (South Africa) 12 - firstmall",
-        "🇿🇦 南非 (South Africa) 13 - firstmall",
-        "🇿🇦 南非 (South Africa) 14 - firstmall"
+        "🇿🇦 南非 (South Africa) 13 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

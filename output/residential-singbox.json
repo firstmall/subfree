@@ -4,81 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - firstmall",
-      "server": "r3mrcg001286ek2.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - firstmall",
-      "server": "203.137.165.164",
-      "server_port": 57554,
-      "uuid": "a2e2d050-ca0c-44a1-8e55-8946c5b04961",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall",
+      "server": "f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "45bc25b2-1a10-11ed-91c0-f23c91cfbbc9",
       "tls": {
         "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 03 (家宽) - firstmall",
-      "server": "188.114.96.7",
-      "server_port": 8443,
-      "uuid": "362a79a2-ce89-8d2d-355c-f1f5071a445f",
-      "tls": {
-        "enabled": true,
-        "server_name": "fragrant-unit-d662.mmammatrix770088.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fragrant-unit-d662.mmammatrix770088.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16113,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - firstmall",
-      "server": "118.167.230.191",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-          "short_id": ""
-        }
+        "server_name": "f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com",
+        "insecure": true
       }
     },
     {
@@ -86,22 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - firstmall",
-        "🇯🇵 日本 (Japan) 02 (家宽) - firstmall",
-        "🇺🇸 美国 (United States) 03 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - firstmall"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - firstmall",
-        "🇯🇵 日本 (Japan) 02 (家宽) - firstmall",
-        "🇺🇸 美国 (United States) 03 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - firstmall"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
