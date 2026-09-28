@@ -19,49 +19,20 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2🇨🇳",
+        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - firstmall",
-      "server": "160.187.100.109",
+      "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
+        "server_name": "www.bing.com",
         "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - firstmall",
-      "server": "36.224.178.15",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - firstmall",
-      "server": "45.207.158.76",
-      "server_port": 9443,
-      "uuid": "966990b5-5868-4af1-add6-011c72b4a443",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4",
-          "short_id": "b390142456517acc"
-        }
       }
     },
     {
@@ -71,9 +42,7 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - firstmall",
         "🇹🇼 中国台湾 (Taiwan) 02 - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 03 - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 04 - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 05 - firstmall"
+        "🇹🇼 中国台湾 (Taiwan) 03 - firstmall"
       ]
     },
     {
@@ -82,9 +51,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - firstmall",
         "🇹🇼 中国台湾 (Taiwan) 02 - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 03 - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 04 - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 05 - firstmall"
+        "🇹🇼 中国台湾 (Taiwan) 03 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

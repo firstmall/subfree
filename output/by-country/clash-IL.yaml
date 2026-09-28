@@ -5,6 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇱 以色列 (Israel) 01 - firstmall
+  server: 185.95.231.233
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1ffa8e68-3378-4cf4-b8f6-44bf3d46d106
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho
+    short-id: a1b2c3d4
+  servername: store.steampowered.com
+  client-fingerprint: chrome
+- name: 🇮🇱 以色列 (Israel) 02 - firstmall
   server: 185.95.231.156
   port: 443
   udp: true
@@ -17,19 +30,6 @@ proxies:
     short-id: a3a578ab
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇮🇱 以色列 (Israel) 02 - firstmall
-  server: 185.95.231.233
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1ffa8e68-3378-4cf4-b8f6-44bf3d46d106
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho
-    short-id: a1b2c3d4
-  servername: store.steampowered.com
-  client-fingerprint: random
 - name: 🇮🇱 以色列 (Israel) 03 - firstmall
   server: 193.202.10.137
   port: 2291
@@ -44,6 +44,19 @@ proxies:
   servername: de2.dzvn.space
   client-fingerprint: firefox
 - name: 🇮🇱 以色列 (Israel) 04 - firstmall
+  server: 193.169.229.145
+  port: 443
+  udp: true
+  type: vless
+  uuid: 46b3a70b-b99f-4c6e-aa83-df6d842bb954
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 2CwgJn1lc23uxQjAdGphQl4SSRmd1amunSpYXxgCgCM
+    short-id: 7e13fde9
+  servername: isr.vpnskyline.com
+  client-fingerprint: chrome
+- name: 🇮🇱 以色列 (Israel) 05 - firstmall
   server: 129.159.156.109
   port: 50160
   udp: true
@@ -60,6 +73,7 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 02 - firstmall
   - 🇮🇱 以色列 (Israel) 03 - firstmall
   - 🇮🇱 以色列 (Israel) 04 - firstmall
+  - 🇮🇱 以色列 (Israel) 05 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +83,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 02 - firstmall
   - 🇮🇱 以色列 (Israel) 03 - firstmall
   - 🇮🇱 以色列 (Israel) 04 - firstmall
+  - 🇮🇱 以色列 (Israel) 05 - firstmall
 rules:
 - MATCH,PROXIES

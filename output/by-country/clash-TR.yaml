@@ -5,45 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - firstmall
-  server: 185.87.24.168
-  port: 2085
-  udp: true
-  type: vless
-  uuid: ea53420b-e8ad-4e9d-ab21-ddd546231e92
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  server: 93.190.9.131
-  port: 3090
-  udp: true
-  type: vless
-  uuid: dca830a2-3c69-4e1b-bc0b-a2ea22af53ba
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇹🇷 土耳其 (Turkey) 03 - firstmall
-  server: 93.190.8.22
-  port: 3090
-  udp: true
-  type: vless
-  uuid: dca830a2-3c69-4e1b-bc0b-a2ea22af53ba
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  server: 151.241.226.201
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  tls: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-    short-id: 9e419c0759b54d6f
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 05 - firstmall
   server: 78.135.73.47
   port: 443
   udp: true
@@ -56,24 +17,18 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 06 - firstmall
-  server: me17.msjia8844.site
-  port: 7443
+- name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
+  server: 151.241.226.201
+  port: 2053
   udp: true
-  type: hysteria2
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  sni: me17.msjia8844.site
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇹🇷 土耳其 (Turkey) 07 - firstmall
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16272
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  tls: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+    short-id: 9e419c0759b54d6f
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,11 +36,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - firstmall
   - 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 03 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 07 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -93,10 +43,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - firstmall
   - 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 03 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 07 - firstmall
 rules:
 - MATCH,PROXIES
