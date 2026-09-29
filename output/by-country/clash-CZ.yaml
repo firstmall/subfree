@@ -5,23 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - firstmall
-  server: 153.76.185.102
-  port: 3090
+  server: www.speedtest.net
+  port: 80
   udp: true
   type: vless
-  uuid: cbbc93ef-6d35-463a-a856-64265c42e66d
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
+  network: ws
+  ws-opts:
+    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
+    headers:
+      Host: young-rice-749e.heliy78750.workers.dev
 - name: 🇨🇿 捷克 (Czech) 02 - firstmall
-  server: 194.87.59.26
-  port: 2085
+  server: 104.18.37.127
+  port: 443
   udp: true
   type: vless
-  uuid: cbbc93ef-6d35-463a-a856-64265c42e66d
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  uuid: fa9ec1a9-6c24-4be2-9472-d1e2592b45b4
+  tls: true
+  servername: g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/pmsM6vhny85OmnvYbXIpf1l?ed=2560
+    headers:
+      Host: g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

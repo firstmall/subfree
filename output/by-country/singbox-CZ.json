@@ -6,23 +6,41 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - firstmall",
-      "server": "153.76.185.102",
-      "server_port": 3090,
-      "uuid": "cbbc93ef-6d35-463a-a856-64265c42e66d",
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "uuid": "63f1ef69-92fd-427a-b3e4-98ffddf81ac6",
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=",
+        "headers": {
+          "Host": "young-rice-749e.heliy78750.workers.dev"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - firstmall",
-      "server": "194.87.59.26",
-      "server_port": 2085,
-      "uuid": "cbbc93ef-6d35-463a-a856-64265c42e66d",
+      "server": "104.18.37.127",
+      "server_port": 443,
+      "uuid": "fa9ec1a9-6c24-4be2-9472-d1e2592b45b4",
+      "tls": {
+        "enabled": true,
+        "server_name": "g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/vl/pmsM6vhny85OmnvYbXIpf1l?ed=2560",
+        "headers": {
+          "Host": "g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev"
+        }
       }
     },
     {

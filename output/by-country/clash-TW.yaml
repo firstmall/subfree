@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - firstmall
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
   server: 165.154.195.38
   port: 35034
   udp: true
@@ -12,21 +19,29 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   alterId: 0
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
-  server: 103.115.109.49
-  port: 443
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
+  server: 85.237.207.49
+  port: 50160
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
+  password: a56619e2bed91121eabb97d20be207c3
+  sni: 85-237-207-49.liao.kdns.fr
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - firstmall
   server: vpn-tw-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: www.bing.com
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - firstmall
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -36,6 +51,8 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 04 - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 05 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +61,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 04 - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 05 - firstmall
 rules:
 - MATCH,PROXIES
