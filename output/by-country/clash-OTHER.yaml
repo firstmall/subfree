@@ -5,31 +5,50 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - firstmall
-  server: 172.67.193.182
-  port: 443
+  server: 172.67.161.144
+  port: 8443
   udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
+    path: /lMnsZUN4/
     headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 02 - firstmall
+  server: 172.67.161.144
+  port: 8443
+  udp: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - firstmall
+  - 🌐 其他地区 (Other) 02 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - firstmall
+  - 🌐 其他地区 (Other) 02 - firstmall
 rules:
 - MATCH,PROXIES

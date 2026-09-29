@@ -5,44 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - firstmall
-  server: www.speedtest.net
-  port: 80
-  udp: true
-  type: vless
-  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
-  network: ws
-  ws-opts:
-    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
-    headers:
-      Host: young-rice-749e.heliy78750.workers.dev
-- name: 🇨🇿 捷克 (Czech) 02 - firstmall
-  server: 104.18.37.127
+  server: 199.232.78.170
   port: 443
   udp: true
-  type: vless
-  uuid: fa9ec1a9-6c24-4be2-9472-d1e2592b45b4
-  tls: true
-  servername: g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev
+  type: trojan
+  password: mitivpn
+  sni: ssl.fastly.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/pmsM6vhny85OmnvYbXIpf1l?ed=2560
-    headers:
-      Host: g84-nee38ryd6helyz6z9qw1rm1bdl1.fornewiran-1056.workers.dev
+    path: '@mehrosabiran'
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - firstmall
-  - 🇨🇿 捷克 (Czech) 02 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - firstmall
-  - 🇨🇿 捷克 (Czech) 02 - firstmall
 rules:
 - MATCH,PROXIES
