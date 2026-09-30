@@ -21,6 +21,8 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 爱沙尼亚 (Estonia) 03 - firstmall
   server: 94.183.170.135
   port: 8443
@@ -30,7 +32,6 @@ proxies:
   tls: true
   servername: estproxy4.lockdwn.com
   skip-cert-verify: false
-  client-fingerprint: chrome
 - name: 🇪🇪 爱沙尼亚 (Estonia) 04 - firstmall
   server: 179.254.126.173
   port: 443
@@ -44,19 +45,30 @@ proxies:
   servername: www.google.com
   client-fingerprint: random
 - name: 🇪🇪 爱沙尼亚 (Estonia) 05 - firstmall
-  server: 176.109.106.182
-  port: 9881
+  server: 188.114.97.6
+  port: 8080
   udp: true
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn5002.whwbbb.workers.dev
+- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - firstmall
+  server: www.speedtest.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
   tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  servername: netlivpn5002.whwbbb.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn5002.whwbbb.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -67,6 +79,7 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - firstmall
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - firstmall
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - firstmall
+  - 🇪🇪 爱沙尼亚 (Estonia) 06 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -77,5 +90,6 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - firstmall
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - firstmall
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - firstmall
+  - 🇪🇪 爱沙尼亚 (Estonia) 06 - firstmall
 rules:
 - MATCH,PROXIES
