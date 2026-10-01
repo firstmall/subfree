@@ -4,20 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - firstmall",
-      "server": "213.183.63.60",
-      "server_port": 9066,
-      "method": "aes-256-cfb",
-      "password": "2KUaE2a8NWTvuCZ3"
+      "server": "114.129.43.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime04.workers.dev"
+        }
+      }
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - firstmall",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9049,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "PRBf4BS2HvJqtWxY"
     },
     {
       "type": "shadowsocks",
@@ -31,9 +37,9 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - firstmall",
       "server": "213.183.63.60",
-      "server_port": 9049,
+      "server_port": 9030,
       "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
+      "password": "GeregetR8cvQHzYr"
     },
     {
       "type": "shadowsocks",
@@ -47,33 +53,33 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - firstmall",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - firstmall",
       "server": "213.183.63.60",
-      "server_port": 9030,
+      "server_port": 9028,
       "method": "aes-256-cfb",
-      "password": "GeregetR8cvQHzYr"
+      "password": "9eeJ2fwnZA5Fxgz8"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - firstmall",
       "server": "213.183.63.60",
-      "server_port": 9085,
+      "server_port": 9066,
       "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "password": "2KUaE2a8NWTvuCZ3"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - firstmall",
       "server": "213.183.63.60",
-      "server_port": 9028,
+      "server_port": 9085,
       "method": "aes-256-cfb",
-      "password": "9eeJ2fwnZA5Fxgz8"
+      "password": "9ej82EKe2gq7gLAM"
     },
     {
       "type": "vless",
@@ -87,7 +93,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -108,7 +114,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -116,6 +122,14 @@
           "short_id": "6ba85179e30d4fc2"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - firstmall",
+      "server": "213.183.63.60",
+      "server_port": 9054,
+      "method": "aes-256-cfb",
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "selector",
@@ -132,7 +146,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 08 - firstmall",
         "🇧🇬 保加利亚 (Bulgaria) 09 - firstmall",
         "🇧🇬 保加利亚 (Bulgaria) 10 - firstmall",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - firstmall"
+        "🇧🇬 保加利亚 (Bulgaria) 11 - firstmall",
+        "🇧🇬 保加利亚 (Bulgaria) 12 - firstmall"
       ]
     },
     {
@@ -149,7 +164,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 08 - firstmall",
         "🇧🇬 保加利亚 (Bulgaria) 09 - firstmall",
         "🇧🇬 保加利亚 (Bulgaria) 10 - firstmall",
-        "🇧🇬 保加利亚 (Bulgaria) 11 - firstmall"
+        "🇧🇬 保加利亚 (Bulgaria) 11 - firstmall",
+        "🇧🇬 保加利亚 (Bulgaria) 12 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
