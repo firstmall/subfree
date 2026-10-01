@@ -6,53 +6,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - firstmall",
-      "server": "204.168.147.195",
-      "server_port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - firstmall",
-      "server": "77.42.20.51",
-      "server_port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - firstmall",
-      "server": "144.31.212.253",
-      "server_port": 443,
-      "password": "cf83b611-6cba-4535-adcb-8da06c6a9146",
-      "tls": {
-        "enabled": true,
-        "server_name": "vps155-edge.kermemehori.ru",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - firstmall",
-      "server": "31.77.199.147",
-      "server_port": 4443,
-      "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.unsplash.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
-          "short_id": "7da2eae792187ab9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - firstmall",
       "server": "45.149.147.97",
       "server_port": 443,
       "uuid": "f28e0ce1-ed75-4e90-b069-5215a80dfb4a",
@@ -62,7 +15,7 @@
         "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -73,51 +26,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - firstmall",
-      "server": "144.31.27.215",
-      "server_port": 43000,
-      "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "144.31.27.215",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dxCQnOekn14riFxt3vdwDNydvW47FsmwFG6BJ2mUgEg",
-          "short_id": "568d87a47271344e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - firstmall",
-      "server": "37.143.129.161",
-      "server_port": 8443,
-      "uuid": "e3e9805a-6c8b-4edd-8ee8-621df79806eb",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.aksay.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI",
-          "short_id": "4a5f04a5ea205fc3"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - firstmall",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - firstmall",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
@@ -126,7 +35,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -137,24 +46,66 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 09 - firstmall",
-      "server": "212.147.245.198",
-      "server_port": 443,
-      "uuid": "042d2d08-2973-5d10-97ad-3b75f16bbe54",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - firstmall",
+      "server": "144.31.27.215",
+      "server_port": 43000,
+      "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "online.1c.ru",
+        "server_name": "144.31.27.215",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "xwLNHc6jBOg5Ddr1LezwY7I45nP485Qfu1YJXMKwVnI",
-          "short_id": "330a464a00000000"
+          "public_key": "dxCQnOekn14riFxt3vdwDNydvW47FsmwFG6BJ2mUgEg",
+          "short_id": "568d87a47271344e"
         }
       }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - firstmall",
+      "server": "144.31.212.253",
+      "server_port": 443,
+      "password": "cf83b611-6cba-4535-adcb-8da06c6a9146",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps155-edge.kermemehori.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - firstmall",
+      "server": "109.94.164.185",
+      "server_port": 10210,
+      "uuid": "ce4b2104-f1fe-4216-ad67-8c21869b9118",
+      "tls": {
+        "enabled": true,
+        "server_name": "firebaseperusertopics-pa.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "twRm8a1BBdz2Q5jTuNbXxA7ZdtDPAyQNEycDYkW9DFc",
+          "short_id": "13121b7150ad7fc6"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - firstmall",
+      "server": "77.42.20.51",
+      "server_port": 1085,
+      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
     },
     {
       "type": "selector",
@@ -166,10 +117,7 @@
         "🇫🇮 芬兰 (Finland) 03 - firstmall",
         "🇫🇮 芬兰 (Finland) 04 - firstmall",
         "🇫🇮 芬兰 (Finland) 05 - firstmall",
-        "🇫🇮 芬兰 (Finland) 06 - firstmall",
-        "🇫🇮 芬兰 (Finland) 07 - firstmall",
-        "🇫🇮 芬兰 (Finland) 08 - firstmall",
-        "🇫🇮 芬兰 (Finland) 09 - firstmall"
+        "🇫🇮 芬兰 (Finland) 06 - firstmall"
       ]
     },
     {
@@ -181,10 +129,7 @@
         "🇫🇮 芬兰 (Finland) 03 - firstmall",
         "🇫🇮 芬兰 (Finland) 04 - firstmall",
         "🇫🇮 芬兰 (Finland) 05 - firstmall",
-        "🇫🇮 芬兰 (Finland) 06 - firstmall",
-        "🇫🇮 芬兰 (Finland) 07 - firstmall",
-        "🇫🇮 芬兰 (Finland) 08 - firstmall",
-        "🇫🇮 芬兰 (Finland) 09 - firstmall"
+        "🇫🇮 芬兰 (Finland) 06 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

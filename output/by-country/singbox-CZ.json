@@ -6,137 +6,21 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - firstmall",
-      "server": "162.159.152.4",
+      "server": "85.117.235.50",
       "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "uuid": "f4d71fd6-1c25-4748-836b-1dbda9268039",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - firstmall",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9",
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - firstmall",
-      "server": "104.17.147.22",
-      "server_port": 443,
-      "uuid": "b19419fa-8009-455b-b059-765e2856883a",
-      "tls": {
-        "enabled": true,
-        "server_name": "akbarian34.j9z65ce2uyks.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/3Qe9Fv1V2cqEtXyBQApZYi",
-        "headers": {
-          "Host": "akbarian34.j9z65ce2uyks.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 04 - firstmall",
-      "server": "153.76.185.162",
-      "server_port": 3090,
-      "uuid": "ea723504-e8df-4f23-b35f-c93961d5128a",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 05 - firstmall",
-      "server": "153.76.185.159",
-      "server_port": 3090,
-      "uuid": "ea723504-e8df-4f23-b35f-c93961d5128a",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 06 - firstmall",
-      "server": "194.87.59.29",
-      "server_port": 2085,
-      "uuid": "ea723504-e8df-4f23-b35f-c93961d5128a",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 07 - firstmall",
-      "server": "195.133.66.229",
-      "server_port": 443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
-      "tls": {
-        "enabled": true,
-        "server_name": "nlll.gaz-service.shop",
+        "server_name": "cz1.animeteka.info",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 08 - firstmall",
-      "server": "195.133.66.229",
-      "server_port": 8443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nlll.gaz-service.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng",
-          "short_id": "b415b8d7a6106ace"
+          "public_key": "PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc",
+          "short_id": "232b1b09e45325a4"
         }
       }
     },
@@ -145,28 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - firstmall",
-        "🇨🇿 捷克 (Czech) 02 - firstmall",
-        "🇨🇿 捷克 (Czech) 03 - firstmall",
-        "🇨🇿 捷克 (Czech) 04 - firstmall",
-        "🇨🇿 捷克 (Czech) 05 - firstmall",
-        "🇨🇿 捷克 (Czech) 06 - firstmall",
-        "🇨🇿 捷克 (Czech) 07 - firstmall",
-        "🇨🇿 捷克 (Czech) 08 - firstmall"
+        "🇨🇿 捷克 (Czech) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - firstmall",
-        "🇨🇿 捷克 (Czech) 02 - firstmall",
-        "🇨🇿 捷克 (Czech) 03 - firstmall",
-        "🇨🇿 捷克 (Czech) 04 - firstmall",
-        "🇨🇿 捷克 (Czech) 05 - firstmall",
-        "🇨🇿 捷克 (Czech) 06 - firstmall",
-        "🇨🇿 捷克 (Czech) 07 - firstmall",
-        "🇨🇿 捷克 (Czech) 08 - firstmall"
+        "🇨🇿 捷克 (Czech) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
