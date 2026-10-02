@@ -6,11 +6,12 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - firstmall",
-      "server": "172.64.42.85",
-      "server_port": 8080,
+      "server": "104.18.47.113",
+      "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
+        "path": "/?ed=2560security=tlssecurity=tls",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
@@ -18,98 +19,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - firstmall",
-      "server": "188.114.97.6",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 03 (家宽) - firstmall",
-      "server": "162.159.38.127",
-      "server_port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls ",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - firstmall",
-      "server": "hinet1.2yly.com",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇬 新加坡 (Singapore) 05 (家宽) - firstmall",
-      "server": "154.86.30.45",
-      "server_port": 24443,
-      "method": "aes-128-gcm",
-      "password": "bKgENdAl@8Zx3lAc-HK-BD-20260622"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - firstmall",
-      "server": "hi.northcluster.info",
-      "server_port": 52300,
-      "uuid": "6e571484-4166-4699-8f58-b34a1823691f",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/video",
-        "headers": {
-          "Host": "hi.northcluster.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - firstmall",
-      "server": "178.83.46.216",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇬 新加坡 (Singapore) 08 (家宽) - firstmall",
-      "server": "s3.huhiuh.space",
-      "server_port": 18642,
-      "password": "user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 09 (移动家宽) - firstmall",
-      "server": "aken.nightfall.best",
+      "tag": "🇳🇱 荷兰 (Netherlands) 02 (移动家宽) - firstmall",
+      "server": "31.77.114.212",
       "server_port": 443,
       "uuid": "af2bf319-ba88-4fec-8317-2b6a8cee96d1",
       "flow": "xtls-rprx-vision",
@@ -128,19 +39,111 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall",
+      "server": "ef105858-tmm5c0-tt2yf5-1j61y.hk3.hyhuawei.com",
+      "server_port": 443,
+      "password": "f13f964e-f06c-11ec-a858-f23c91cfbbc9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ef105858-tmm5c0-tt2yf5-1j61y.hk3.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall",
+      "server": "218.250.216.236",
+      "server_port": 443,
+      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "download.windowsupdate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - firstmall",
+      "server": "f10045ac-tmm5c0-tvgkxc-hrtf.nw4.hyhuawei.com",
+      "server_port": 443,
+      "password": "0da8651e-e1f6-11ec-bd7c-f23c913c8d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "f10045ac-tmm5c0-tvgkxc-hrtf.nw4.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - firstmall",
+      "server": "178.83.46.216",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇬 新加坡 (Singapore) 07 (家宽) - firstmall",
+      "server": "s3.huhiuh.space",
+      "server_port": 18642,
+      "password": "user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - firstmall",
+      "server": "sbgfgov.vip24.wogacnmnagfwgov.com",
+      "server_port": 11224,
+      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
+      "security": "auto",
+      "alter_id": 2
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - firstmall",
+      "server": "hinet1.2yly.com",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (移动家宽) - firstmall",
-        "🇺🇸 美国 (United States) 02 (家宽) - firstmall",
-        "🇺🇸 美国 (United States) 03 (家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - firstmall",
-        "🇸🇬 新加坡 (Singapore) 05 (家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - firstmall",
-        "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - firstmall",
-        "🇸🇬 新加坡 (Singapore) 08 (家宽) - firstmall",
-        "🇳🇱 荷兰 (Netherlands) 09 (移动家宽) - firstmall"
+        "🇳🇱 荷兰 (Netherlands) 02 (移动家宽) - firstmall",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall",
+        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - firstmall",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - firstmall",
+        "🇸🇬 新加坡 (Singapore) 07 (家宽) - firstmall",
+        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - firstmall",
+        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - firstmall"
       ]
     },
     {
@@ -148,14 +151,14 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (移动家宽) - firstmall",
-        "🇺🇸 美国 (United States) 02 (家宽) - firstmall",
-        "🇺🇸 美国 (United States) 03 (家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - firstmall",
-        "🇸🇬 新加坡 (Singapore) 05 (家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - firstmall",
-        "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - firstmall",
-        "🇸🇬 新加坡 (Singapore) 08 (家宽) - firstmall",
-        "🇳🇱 荷兰 (Netherlands) 09 (移动家宽) - firstmall"
+        "🇳🇱 荷兰 (Netherlands) 02 (移动家宽) - firstmall",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall",
+        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - firstmall",
+        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - firstmall",
+        "🇸🇬 新加坡 (Singapore) 07 (家宽) - firstmall",
+        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - firstmall",
+        "🇹🇼 中国台湾 (Taiwan) 09 (家宽) - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

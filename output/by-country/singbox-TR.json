@@ -15,7 +15,7 @@
         "server_name": "nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -27,13 +27,6 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - firstmall",
-      "server": "109.230.196.66",
-      "server_port": 208,
-      "uuid": "8d89622f-3150-424e-8446-06866a3d6b66"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - firstmall",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -54,7 +47,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - firstmall",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - firstmall",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -74,7 +67,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - firstmall",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - firstmall",
       "server": "me17.msjia8844.site",
       "server_port": 7443,
       "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
@@ -90,7 +83,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - firstmall",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - firstmall",
       "server": "83.217.9.140",
       "server_port": 43000,
       "uuid": "85163fd9-6f73-4eea-b1df-3b327dacbabf",
@@ -118,8 +111,7 @@
         "🇹🇷 土耳其 (Turkey) 02 - firstmall",
         "🇹🇷 土耳其 (Turkey) 03 - firstmall",
         "🇹🇷 土耳其 (Turkey) 04 - firstmall",
-        "🇹🇷 土耳其 (Turkey) 05 - firstmall",
-        "🇹🇷 土耳其 (Turkey) 06 - firstmall"
+        "🇹🇷 土耳其 (Turkey) 05 - firstmall"
       ]
     },
     {
@@ -130,8 +122,7 @@
         "🇹🇷 土耳其 (Turkey) 02 - firstmall",
         "🇹🇷 土耳其 (Turkey) 03 - firstmall",
         "🇹🇷 土耳其 (Turkey) 04 - firstmall",
-        "🇹🇷 土耳其 (Turkey) 05 - firstmall",
-        "🇹🇷 土耳其 (Turkey) 06 - firstmall"
+        "🇹🇷 土耳其 (Turkey) 05 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

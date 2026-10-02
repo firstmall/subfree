@@ -16,14 +16,8 @@ proxies:
     public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
-  client-fingerprint: random
+  client-fingerprint: ''
 - name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  server: 109.230.196.66
-  port: 208
-  udp: true
-  type: vless
-  uuid: 8d89622f-3150-424e-8446-06866a3d6b66
-- name: 🇹🇷 土耳其 (Turkey) 03 - firstmall
   server: 78.135.73.47
   port: 443
   udp: true
@@ -36,7 +30,7 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: qq
-- name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
+- name: 🇹🇷 土耳其 (Turkey) 03 - firstmall
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -48,7 +42,7 @@ proxies:
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 05 - firstmall
+- name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
   server: me17.msjia8844.site
   port: 7443
   udp: true
@@ -58,7 +52,7 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇹🇷 土耳其 (Turkey) 06 - firstmall
+- name: 🇹🇷 土耳其 (Turkey) 05 - firstmall
   server: 83.217.9.140
   port: 43000
   udp: true
@@ -81,7 +75,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - firstmall
   - 🇹🇷 土耳其 (Turkey) 04 - firstmall
   - 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -92,6 +85,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - firstmall
   - 🇹🇷 土耳其 (Turkey) 04 - firstmall
   - 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 - firstmall
 rules:
 - MATCH,PROXIES

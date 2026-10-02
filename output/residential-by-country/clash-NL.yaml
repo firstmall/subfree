@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 (移动家宽) - firstmall
-  server: aken.nightfall.best
+  server: 31.77.114.212
   port: 443
   udp: true
   type: vless
