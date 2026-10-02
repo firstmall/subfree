@@ -4,39 +4,27 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (移动家宽) - firstmall
+- name: 🇺🇸 美国 (United States) 01 (家宽) - firstmall
   server: 104.18.47.113
-  port: 2082
+  port: 2095
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
+    path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇳🇱 荷兰 (Netherlands) 02 (移动家宽) - firstmall
-  server: 31.77.114.212
-  port: 443
-  udp: true
-  type: vless
-  uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Zli2oz4Y11pvkrGK71XDcbp1OWIPzK2FYhUXQvl1yiI
-  servername: aken.nightfall.best
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
-  server: ef105858-tmm5c0-tt2yf5-1j61y.hk3.hyhuawei.com
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall
+  server: 653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  sni: ef105858-tmm5c0-tt2yf5-1j61y.hk3.hyhuawei.com
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  sni: 653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall
-  server: 218.250.216.236
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
+  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
   port: 443
   udp: true
   type: vless
@@ -45,38 +33,24 @@ proxies:
   reality-opts:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - firstmall
-  server: f10045ac-tmm5c0-tvgkxc-hrtf.nw4.hyhuawei.com
+  client-fingerprint: random
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall
+  server: 9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-  sni: f10045ac-tmm5c0-tvgkxc-hrtf.nw4.hyhuawei.com
+  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  sni: 9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com
   skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - firstmall
-  server: 178.83.46.216
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇸🇬 新加坡 (Singapore) 07 (家宽) - firstmall
-  server: s3.huhiuh.space
-  port: 18642
-  udp: true
-  type: hysteria2
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - firstmall
-  server: sbgfgov.vip24.wogacnmnagfwgov.com
-  port: 11224
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - firstmall
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16115
   udp: true
   type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - firstmall
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - firstmall
   server: hinet1.2yly.com
   port: 24215
   udp: true
@@ -87,33 +61,35 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - firstmall
+  server: 145.239.30.17
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - firstmall
-  - 🇳🇱 荷兰 (Netherlands) 02 (移动家宽) - firstmall
+  - 🇺🇸 美国 (United States) 01 (家宽) - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - firstmall
-  - 🇸🇬 新加坡 (Singapore) 07 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - firstmall
+  - 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - firstmall
-  - 🇳🇱 荷兰 (Netherlands) 02 (移动家宽) - firstmall
+  - 🇺🇸 美国 (United States) 01 (家宽) - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - firstmall
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - firstmall
-  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - firstmall
-  - 🇸🇬 新加坡 (Singapore) 07 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 05 (移动家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - firstmall
+  - 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - firstmall
 rules:
 - MATCH,PROXIES

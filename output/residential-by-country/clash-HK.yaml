@@ -5,15 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall
-  server: ef105858-tmm5c0-tt2yf5-1j61y.hk3.hyhuawei.com
+  server: 653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  sni: ef105858-tmm5c0-tt2yf5-1j61y.hk3.hyhuawei.com
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  sni: 653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall
-  server: 218.250.216.236
+  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
   port: 443
   udp: true
   type: vless
@@ -22,15 +22,23 @@ proxies:
   reality-opts:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
-  server: f10045ac-tmm5c0-tvgkxc-hrtf.nw4.hyhuawei.com
+  server: 9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-  sni: f10045ac-tmm5c0-tvgkxc-hrtf.nw4.hyhuawei.com
+  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  sni: 9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16115
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +47,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +56,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall
+  - 🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall
 rules:
 - MATCH,PROXIES

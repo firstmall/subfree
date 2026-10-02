@@ -5,30 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - firstmall
-  server: 165.154.195.38
-  port: 35034
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
+  server: sbgfgov.vip24.wogacnmnagfwgov.com
+  port: 11224
   udp: true
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  alterId: 2
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
   server: 103.115.109.49
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
-  server: 160.187.100.109
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - firstmall
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - firstmall
   server: sbgfgov.vip23.wogacnmnagfwgov.com
   port: 11223
   udp: true
@@ -44,7 +44,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 04 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -53,6 +53,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 02 - firstmall
   - 🇹🇼 中国台湾 (Taiwan) 03 - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 04 - firstmall
 rules:
 - MATCH,PROXIES
