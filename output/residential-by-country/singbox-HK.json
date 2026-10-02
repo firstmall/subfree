@@ -6,54 +6,26 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall",
-      "server": "653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com",
+      "server": "a6edadd7-tmm5c0-txfm0f-1qxa1.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "5dc6fa05-a601-aba6-7761-ecde22d2b0fc",
+      "password": "f609abb4-ed17-11ee-9fa2-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "653c15ac-tmm5c0-tonrmx-8n27.hk3.hyhuawei.com",
+        "server_name": "a6edadd7-tmm5c0-txfm0f-1qxa1.hk3.hyhuawei.com",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall",
-      "server": "a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.windowsupdate.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-          "short_id": ""
-        }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall",
-      "server": "9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall",
+      "server": "ca150a01-tmm5c0-twjnjx-1q9g2.nw4.hyhuawei.com",
       "server_port": 443,
-      "password": "3f514ea2-4662-11ed-a8bf-f23c91cfbbc9",
+      "password": "9d80dd14-ac44-11ee-a116-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "9fc34650-tmm5c0-tmj4pk-1kcpe.nw4.hyhuawei.com",
+        "server_name": "ca150a01-tmm5c0-twjnjx-1q9g2.nw4.hyhuawei.com",
         "insecure": true
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16115,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
     },
     {
       "type": "selector",
@@ -61,9 +33,7 @@
       "outbounds": [
         "auto",
         "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall"
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall"
       ]
     },
     {
@@ -71,9 +41,7 @@
       "tag": "auto",
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - firstmall",
-        "🇭🇰 中国香港 (Hong Kong) 04 (移动家宽) - firstmall"
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
