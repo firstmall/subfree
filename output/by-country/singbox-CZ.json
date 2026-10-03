@@ -6,6 +6,46 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - firstmall",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9",
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "headers": {
+          "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - firstmall",
+      "server": "188.114.98.134",
+      "server_port": 443,
+      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
+      "tls": {
+        "enabled": true,
+        "server_name": "o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 03 - firstmall",
       "server": "cz.monkora.org",
       "server_port": 443,
       "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
@@ -25,7 +65,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - firstmall",
+      "tag": "🇨🇿 捷克 (Czech) 04 - firstmall",
       "server": "85.117.235.50",
       "server_port": 443,
       "uuid": "f4d71fd6-1c25-4748-836b-1dbda9268039",
@@ -35,7 +75,7 @@
         "server_name": "cz1.animeteka.info",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -46,14 +86,14 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇿 捷克 (Czech) 03 - firstmall",
+      "tag": "🇨🇿 捷克 (Czech) 05 - firstmall",
       "server": "153.76.190.41",
       "server_port": 8443,
       "password": "3a92b39a-5f02-415e-a908-783ec320e83f",
       "tls": {
         "enabled": true,
         "server_name": "speedtestmark.com",
-        "insecure": false
+        "insecure": true
       }
     },
     {
@@ -63,7 +103,9 @@
         "auto",
         "🇨🇿 捷克 (Czech) 01 - firstmall",
         "🇨🇿 捷克 (Czech) 02 - firstmall",
-        "🇨🇿 捷克 (Czech) 03 - firstmall"
+        "🇨🇿 捷克 (Czech) 03 - firstmall",
+        "🇨🇿 捷克 (Czech) 04 - firstmall",
+        "🇨🇿 捷克 (Czech) 05 - firstmall"
       ]
     },
     {
@@ -72,7 +114,9 @@
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - firstmall",
         "🇨🇿 捷克 (Czech) 02 - firstmall",
-        "🇨🇿 捷克 (Czech) 03 - firstmall"
+        "🇨🇿 捷克 (Czech) 03 - firstmall",
+        "🇨🇿 捷克 (Czech) 04 - firstmall",
+        "🇨🇿 捷克 (Czech) 05 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
