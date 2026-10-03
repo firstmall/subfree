@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - firstmall",
       "server": "195.238.126.20",
-      "server_port": 9045,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "Lp27rqyJq72bZsqX"
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - firstmall",
-      "server": "195.238.126.20",
-      "server_port": 9008,
+      "server": "195.238.126.84",
+      "server_port": 9039,
       "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
+      "password": "qYEN5HX4JKeVCdEC"
     },
     {
       "type": "shadowsocks",
@@ -31,25 +31,25 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 04 - firstmall",
       "server": "195.238.126.20",
+      "server_port": 9045,
+      "method": "aes-256-cfb",
+      "password": "Lp27rqyJq72bZsqX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - firstmall",
+      "server": "195.238.126.20",
       "server_port": 9086,
       "method": "aes-256-cfb",
       "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - firstmall",
-      "server": "195.238.126.20",
-      "server_port": 9001,
-      "method": "aes-256-cfb",
-      "password": "UkXRsXvR6buDMG2Y"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 06 - firstmall",
-      "server": "195.238.126.84",
-      "server_port": 9039,
+      "server": "195.238.126.20",
+      "server_port": 9002,
       "method": "aes-256-cfb",
-      "password": "qYEN5HX4JKeVCdEC"
+      "password": "b8KkNDjEd5QqFyRm"
     },
     {
       "type": "shadowsocks",
@@ -63,29 +63,21 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 08 - firstmall",
       "server": "195.238.126.20",
-      "server_port": 9011,
+      "server_port": 9008,
       "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
+      "password": "y9VURyNzJWNRYEGQ"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 09 - firstmall",
       "server": "195.238.126.20",
-      "server_port": 9068,
+      "server_port": 9001,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 10 - firstmall",
-      "server": "195.238.126.20",
-      "server_port": 9002,
-      "method": "aes-256-cfb",
-      "password": "b8KkNDjEd5QqFyRm"
+      "password": "UkXRsXvR6buDMG2Y"
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 11 - firstmall",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 10 - firstmall",
       "server": "84.32.151.226",
       "server_port": 443,
       "uuid": "3e35758a-911b-4e30-bc1a-8985323df6f7",
@@ -109,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 12 - firstmall",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 11 - firstmall",
       "server": "62.77.158.1",
       "server_port": 443,
       "uuid": "2eceaf2b-a775-5a9c-9990-dad2b3660fb6",
@@ -143,8 +135,7 @@
         "🇱🇹 立陶宛 (Lithuania) 08 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 09 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 10 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 11 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 12 - firstmall"
+        "🇱🇹 立陶宛 (Lithuania) 11 - firstmall"
       ]
     },
     {
@@ -161,8 +152,7 @@
         "🇱🇹 立陶宛 (Lithuania) 08 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 09 - firstmall",
         "🇱🇹 立陶宛 (Lithuania) 10 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 11 - firstmall",
-        "🇱🇹 立陶宛 (Lithuania) 12 - firstmall"
+        "🇱🇹 立陶宛 (Lithuania) 11 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

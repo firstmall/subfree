@@ -5,157 +5,77 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - firstmall
-  server: 104.26.15.4
-  port: 443
+  server: 216.106.187.60
+  port: 22324
   udp: true
-  type: vless
-  uuid: 1e534c59-85c2-4042-a407-e491f68cb3a5
-  tls: true
-  servername: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/Z8Ag5xQbwmhIHsvyDj3?ed=2560
-    headers:
-      Host: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
 - name: 🇩🇪 德国 (Germany) 02 - firstmall
-  server: 188.114.97.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
-  tls: true
-  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/nw8XNxNaLw6JVF1rAbo7z
-    headers:
-      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-- name: 🇩🇪 德国 (Germany) 03 - firstmall
-  server: 104.21.16.123
-  port: 443
-  udp: true
-  type: trojan
-  password: Telegram_healer_config
-  sni: 7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560
-- name: 🇩🇪 德国 (Germany) 04 - firstmall
-  server: www.speedtest.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
-  tls: true
-  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '/vl/qAuPpP8UsUmtA5NiXmiGs '
-    headers:
-      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-- name: 🇩🇪 德国 (Germany) 05 - firstmall
-  server: 188.114.96.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
-  tls: true
-  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/Dx6V42S2EK2zpfDrJrOZXj4MI5PnNOGr
-    headers:
-      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-- name: 🇩🇪 德国 (Germany) 06 - firstmall
-  server: 104.21.66.138
-  port: 80
-  udp: true
-  type: vless
-  uuid: f45d7c9f-54b1-4ac9-a691-c65f8007593f
-  network: ws
-  ws-opts:
-    path: /vl/lm0JTPoJ006x2WOz?ed=2560
-    headers:
-      Host: ez2e6cjldxp01cim4g8.dfghdsfghdsf-43621.workers.dev
-- name: 🇩🇪 德国 (Germany) 07 - firstmall
-  server: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
-  tls: true
-  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/1zCIGMyxlm8xzeGwdyy
-- name: 🇩🇪 德国 (Germany) 08 - firstmall
-  server: 185.226.172.8
-  port: 8008
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 09 - firstmall
-  server: 185.177.229.129
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 10 - firstmall
-  server: 31.76.11.83
-  port: 11750
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: iku/Gfrt9YeEUUleXr2Ptf3uvs0hszCR0JHPqGSjs+c=
-- name: 🇩🇪 德国 (Germany) 11 - firstmall
-  server: 185.177.229.128
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 12 - firstmall
-  server: 51.195.126.38
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
-- name: 🇩🇪 德国 (Germany) 13 - firstmall
   server: 8.209.74.72
   port: 20001
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: PWpjPo3tqhPN4yRZ
-- name: 🇩🇪 德国 (Germany) 14 - firstmall
+- name: 🇩🇪 德国 (Germany) 03 - firstmall
+  server: 141.95.29.163
+  port: 2083
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:JTou+JSmZOAyrMLdvNBcXFm0Y9luZ/8u17ie48jQfVc=
+- name: 🇩🇪 德国 (Germany) 04 - firstmall
+  server: 31.76.11.83
+  port: 23325
+  udp: true
+  type: vmess
+  uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 05 - firstmall
   server: 209.46.102.22
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 1hhrqrokj3ag
-- name: 🇩🇪 德国 (Germany) 15 - firstmall
-  server: 31.76.11.83
-  port: 26150
+- name: 🇩🇪 德国 (Germany) 06 - firstmall
+  server: 185.226.172.8
+  port: 8008
   udp: true
-  type: vless
-  uuid: e676c6c8-44a8-4a1d-82cc-821a1f70f0c0
-- name: 🇩🇪 德国 (Germany) 16 - firstmall
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇩🇪 德国 (Germany) 07 - firstmall
+  server: 35.246.185.109
+  port: 443
+  udp: true
+  type: trojan
+  password: M7v%w11Se*
+  sni: dggg.wsone.icu
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 08 - firstmall
+  server: 8.211.15.144
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: fc04RSUu3TfONQnlbKTwvA
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 09 - firstmall
+  server: 31.77.168.33
+  port: 443
+  udp: true
+  type: trojan
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  sni: d3-de2.cloud-cdn.xyz
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ajv
+- name: 🇩🇪 德国 (Germany) 10 - firstmall
   server: 31.77.168.21
   port: 443
   udp: true
@@ -166,7 +86,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ajv
-- name: 🇩🇪 德国 (Germany) 17 - firstmall
+- name: 🇩🇪 德国 (Germany) 11 - firstmall
   server: 31.77.109.35
   port: 443
   udp: true
@@ -178,8 +98,58 @@ proxies:
     public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
     short-id: 494afdc75f8c2fa8
   servername: d3-de1.cloud-cdn.xyz
+  client-fingerprint: edge
+- name: 🇩🇪 德国 (Germany) 12 - firstmall
+  server: 51.195.126.38
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2YdE4lFOid5a
+- name: 🇩🇪 德国 (Germany) 13 - firstmall
+  server: 94.156.112.43
+  port: 443
+  udp: true
+  type: vless
+  uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: _aURfmVUjvCRZipDI2eqMO0VQa64BJRGYFOdlBFi1XQ
+  servername: newblocksgerm.site
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 18 - firstmall
+- name: 🇩🇪 德国 (Germany) 14 - firstmall
+  server: 162.55.242.208
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  tls: true
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+    short-id: 4d14da19b19cfc8c
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 15 - firstmall
+  server: pleased-albacore.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: pleased-albacore.rooster465.autos
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 16 - firstmall
+  server: 31.77.168.35
+  port: 443
+  udp: true
+  type: trojan
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  sni: d3-de2.cloud-cdn.xyz
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ajv
+- name: 🇩🇪 德国 (Germany) 17 - firstmall
   server: 130.17.25.67
   port: 443
   udp: true
@@ -191,65 +161,43 @@ proxies:
     public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
     short-id: 9e4eced6e98ed4d4
   servername: github.com
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 19 - firstmall
-  server: 31.77.168.192
-  port: 443
-  udp: true
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  servername: d3-de1.cloud-cdn.xyz
-  client-fingerprint: edge
-- name: 🇩🇪 德国 (Germany) 20 - firstmall
-  server: 91.233.121.32
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5469c1d9-e949-4553-a146-ac3ad363a705
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Ez3w5uLzFlysA6Owr7SguTK5kzlIFZ09TgalzUHGAR4
-    short-id: 9f51e98fb874846b
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 21 - firstmall
-  server: 169.150.210.233
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 22 - firstmall
-  server: 104.194.159.237
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: L5cKU_oSpJsGd3ffemej3Wy7V6KzqjIUC2T5jaCyPys
-    short-id: 1aec480577a542ee
-  servername: github.com
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 23 - firstmall
-  server: 31.77.168.33
+- name: 🇩🇪 德国 (Germany) 18 - firstmall
+  server: 31.59.58.232
+  port: 20772
+  udp: true
+  type: vmess
+  uuid: d69007f9-b038-4156-d27f-f81f18094ecf
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🇩🇪 德国 (Germany) 19 - firstmall
+  server: id-nl-01.mintrocket.org
   port: 443
   udp: true
-  type: trojan
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  sni: d3-de2.cloud-cdn.xyz
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ajv
-- name: 🇩🇪 德国 (Germany) 24 - firstmall
+  type: vless
+  uuid: f0a52dd3-4377-4402-a450-210bc81bcf25
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q
+    short-id: fee1f986a72444db
+  servername: id-nl-01.mintrocket.org
+  client-fingerprint: safari
+- name: 🇩🇪 德国 (Germany) 20 - firstmall
+  server: 172.64.229.129
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: 🇩🇪 德国 (Germany) 21 - firstmall
   server: 50.7.157.234
   port: 443
   udp: true
@@ -262,15 +210,29 @@ proxies:
     short-id: ba4b2afa9e7193ea
   servername: edge-fr.extazy.net
   client-fingerprint: random
-- name: 🇩🇪 德国 (Germany) 25 - firstmall
-  server: 35.246.185.109
+- name: 🇩🇪 德国 (Germany) 22 - firstmall
+  server: 57.129.41.216
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
+  network: ws
+  ws-opts:
+    path: /vless/
+- name: 🇩🇪 德国 (Germany) 23 - firstmall
+  server: 31.77.168.192
   port: 443
   udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: dggg.wsone.icu
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 26 - firstmall
+  type: vless
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
+    short-id: 494afdc75f8c2fa8
+  servername: d3-de1.cloud-cdn.xyz
+  client-fingerprint: edge
+- name: 🇩🇪 德国 (Germany) 24 - firstmall
   server: 89.169.53.176
   port: 4443
   udp: true
@@ -282,266 +244,8 @@ proxies:
     public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
     short-id: df3aff719526dc5a
   servername: de.wvpn.one
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 27 - firstmall
-  server: vpn-de-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 28 - firstmall
-  server: 3.120.109.26
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: actual-squid.rooster465.autos
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 29 - firstmall
-  server: germanybeforelanz.site
-  port: 443
-  udp: true
-  type: vless
-  uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: qxeqNkLoTs6t9YIbarwpV53bfBei0dBBiaC52fQ_NlY
-  servername: germanybeforelanz.site
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 30 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 31 - firstmall
-  server: 57.129.64.97
-  port: 443
-  udp: true
-  type: vless
-  uuid: nasnet
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nasnet-571296497-direct.mbghalibaf.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 32 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 57.129.41.216
-- name: 🇩🇪 德国 (Germany) 33 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 34 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇩🇪 德国 (Germany) 35 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 36 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 37 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 38 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇩🇪 德国 (Germany) 39 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇩🇪 德国 (Germany) 40 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇩🇪 德国 (Germany) 41 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  network: ws
-  ws-opts:
-    path: /vless/
-- name: 🇩🇪 德国 (Germany) 42 - firstmall
-  server: 95.81.75.9
-  port: 57160
-  udp: true
-  type: vless
-  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
-    short-id: 77b5
-  servername: funpay.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 43 - firstmall
-  server: 177.1.186.44
-  port: 443
-  udp: true
-  type: vless
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
-    short-id: 29455a3a790acbd0
-  servername: mcde.67resserv67.info
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 44 - firstmall
-  server: ov-germany1.09vpn.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 45 - firstmall
-  server: ov-germany1.09vpn.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 46 - firstmall
-  server: ov-germany1.09vpn.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 47 - firstmall
-  server: 162.55.242.208
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
-  tls: true
-  reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-    short-id: 4d14da19b19cfc8c
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 48 - firstmall
-  server: 111.88.74.239
-  port: 443
-  udp: true
-  type: vless
-  uuid: 88a4915f-d68d-44aa-b4a4-36b99a2ab1ed
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo
-    short-id: c56d4f1c
-  servername: google.com
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 49 - firstmall
-  server: 31.70.111.146
-  port: 443
-  udp: true
-  type: vless
-  uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE
-    short-id: d7de3a6ff4018957
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 50 - firstmall
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 51 - firstmall
+  client-fingerprint: random
+- name: 🇩🇪 德国 (Germany) 25 - firstmall
   server: 31.77.161.15
   port: 443
   udp: true
@@ -554,7 +258,72 @@ proxies:
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 52 - firstmall
+- name: 🇩🇪 德国 (Germany) 26 - firstmall
+  server: 82.118.19.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇩🇪 德国 (Germany) 27 - firstmall
+  server: 104.194.159.237
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: L5cKU_oSpJsGd3ffemej3Wy7V6KzqjIUC2T5jaCyPys
+    short-id: 1aec480577a542ee
+  servername: github.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 28 - firstmall
+  server: 169.150.210.233
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 29 - firstmall
+  server: 185.177.229.129
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 30 - firstmall
+  server: ov-germany1.09vpn.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 31 - firstmall
+  server: 111.88.74.239
+  port: 443
+  udp: true
+  type: vless
+  uuid: 88a4915f-d68d-44aa-b4a4-36b99a2ab1ed
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo
+    short-id: c56d4f1c
+  servername: google.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 32 - firstmall
   server: 139.162.149.105
   port: 80
   udp: true
@@ -563,37 +332,99 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪 德国 (Germany) 53 - firstmall
-  server: 64.188.119.177
-  port: 28015
-  udp: true
-  type: hysteria2
-  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
-  sni: api-test-udp-trf.kaneki.cfd
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 54 - firstmall
-  server: 2.58.81.221
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 55 - firstmall
-  server: 189.24.82.195
+- name: 🇩🇪 德国 (Germany) 33 - firstmall
+  server: 31.70.111.146
   port: 443
   udp: true
   type: vless
-  uuid: bf7ca7a3-a028-488e-b9f1-34e467d6d897
+  uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: oXHb-GX9ExLRs-CcFwllm6zp99jpx7yAdxrvAV1sZ18
-    short-id: 3eaacc9b
-  servername: itunes.apple.com
+    public-key: ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE
+    short-id: d7de3a6ff4018957
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 34 - firstmall
+  server: 199.232.78.159
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8453bdb7-dd58-419d-b002-9456dd2e73d7
+  tls: true
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pan2e.global.ssl.fastly.net
+- name: 🇩🇪 德国 (Germany) 35 - firstmall
+  server: nasnet-571296497-direct.mbghalibaf.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: nasnet
+  flow: xtls-rprx-vision
+  tls: true
+  servername: nasnet-571296497-direct.mbghalibaf.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 36 - firstmall
+  server: 89.39.121.186
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MbSfYN0EDX7TaqYNUlx4eMfd_ablcmFVHKxW8Oy10iQ
+    short-id: a7b8c9d0e1f20d14
+  servername: www.bing.com
+  client-fingerprint: safari
+- name: 🇩🇪 德国 (Germany) 37 - firstmall
+  server: ade.axiomed.ir
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77702cd2-6a11-40f4-a817-1efeae6f6889
+  tls: true
+  servername: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
+  skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws
-- name: 🇩🇪 德国 (Germany) 56 - firstmall
+    path: /vl/Nmf5YfPITFhUjeHE8KfDU5T8H?ed=2560
+    headers:
+      Host: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
+- name: 🇩🇪 德国 (Germany) 38 - firstmall
+  server: 185.177.229.128
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 39 - firstmall
+  server: 91.107.191.165
+  port: 1
+  udp: true
+  type: vmess
+  uuid: 9f15b600-ce52-447f-b388-ef70de75308e
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 40 - firstmall
+  server: 193.24.210.211
+  port: 25040
+  udp: true
+  type: trojan
+  password: Km/pIG4AGCjCOiGWj5FsWA==
+  sni: /gay-anal
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 41 - firstmall
   server: 193.108.117.54
   port: 443
   udp: true
@@ -609,18 +440,20 @@ proxies:
     path: /linkvws
     headers:
       Host: aidrivercat.org
-- name: 🇩🇪 德国 (Germany) 57 - firstmall
-  server: node8.quaxly.com
-  port: 25040
+- name: 🇩🇪 德国 (Germany) 42 - firstmall
+  server: 177.1.186.44
+  port: 443
   udp: true
-  type: trojan
-  password: Km/pIG4AGCjCOiGWj5FsWA==
-  sni: /gay-anal
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 58 - firstmall
+  type: vless
+  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
+    short-id: 29455a3a790acbd0
+  servername: mcde.67resserv67.info
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 43 - firstmall
   server: 82.39.171.142
   port: 443
   udp: true
@@ -633,132 +466,7 @@ proxies:
     short-id: c39cc7310a
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 59 - firstmall
-  server: rubifen.adaspoloandco.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  tls: true
-  servername: rubifen.adaspoloandco.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /GOrbEh
-    headers:
-      Host: rubifen.adaspoloandco.com
-- name: 🇩🇪 德国 (Germany) 60 - firstmall
-  server: 2.58.81.221
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 61 - firstmall
-  server: defrnode.jumpernode.online
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: 5c6481cdd4
-  servername: buckeye-retail-website.amazon.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 62 - firstmall
-  server: 31.76.11.83
-  port: 23325
-  udp: true
-  type: vmess
-  uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 63 - firstmall
-  server: 94.228.171.219
-  port: 8444
-  udp: true
-  type: vless
-  uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
-  tls: true
-  servername: germany.tofreedom.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /c7f5317cd04691bc
-    headers:
-      Host: germany.tofreedom.ru
-- name: 🇩🇪 德国 (Germany) 64 - firstmall
-  server: 82.39.171.12
-  port: 443
-  udp: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 65 - firstmall
-  server: 89.39.121.186
-  port: 2087
-  udp: true
-  type: vless
-  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MbSfYN0EDX7TaqYNUlx4eMfd_ablcmFVHKxW8Oy10iQ
-    short-id: a7b8c9d0e1f20d14
-  servername: www.bing.com
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 66 - firstmall
-  server: 213.202.208.199
-  port: 7001
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇩🇪 德国 (Germany) 67 - firstmall
-  server: id-nl-01.mintrocket.org
-  port: 443
-  udp: true
-  type: vless
-  uuid: f0a52dd3-4377-4402-a450-210bc81bcf25
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q
-    short-id: fee1f986a72444db
-  servername: id-nl-01.mintrocket.org
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 68 - firstmall
-  server: 82.118.19.153
-  port: 443
-  udp: true
-  type: vless
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 69 - firstmall
-  server: apadana.gamingnet.ir
-  port: 33483
-  udp: true
-  type: vless
-  uuid: 758a691a-45d2-4462-a0e8-991248a6994e
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 70 - firstmall
+- name: 🇩🇪 德国 (Germany) 44 - firstmall
   server: 144.31.215.227
   port: 443
   udp: true
@@ -770,85 +478,148 @@ proxies:
     public-key: LEoyslGYLVf2XWq9Bkq8Hod-EsB3ZoTlvR5AKK3rciQ
     short-id: c885e8f8
   servername: cdn-de.bulkavpn.top
-  client-fingerprint: random
-- name: 🇩🇪 德国 (Germany) 71 - firstmall
-  server: freesocks.work
-  port: 2053
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 45 - firstmall
+  server: 31.76.11.83
+  port: 26150
   udp: true
   type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  tls: true
-  servername: uwu.blueknightnet.qzz.io
+  uuid: e676c6c8-44a8-4a1d-82cc-821a1f70f0c0
+- name: 🇩🇪 德国 (Germany) 46 - firstmall
+  server: actual-squid.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: actual-squid.rooster465.autos
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 72 - firstmall
-  server: 45.132.177.80
-  port: 9881
-  udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 德国 (Germany) 73 - firstmall
-  server: hikvision-plus.com
-  port: 2052
-  udp: true
-  type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 74 - firstmall
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 75 - firstmall
-  server: 199.232.78.159
+- name: 🇩🇪 德国 (Germany) 47 - firstmall
+  server: 189.24.82.195
   port: 443
   udp: true
   type: vless
-  uuid: 2e8cd1fa-0dcc-4402-bb99-be3d623fc1d5
+  uuid: bf7ca7a3-a028-488e-b9f1-34e467d6d897
   tls: true
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: oXHb-GX9ExLRs-CcFwllm6zp99jpx7yAdxrvAV1sZ18
+    short-id: 3eaacc9b
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇩🇪 德国 (Germany) 48 - firstmall
+  server: 91.233.121.32
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5469c1d9-e949-4553-a146-ac3ad363a705
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Ez3w5uLzFlysA6Owr7SguTK5kzlIFZ09TgalzUHGAR4
+    short-id: 9f51e98fb874846b
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇩🇪 德国 (Germany) 49 - firstmall
+  server: 2.58.81.221
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 50 - firstmall
+  server: 82.39.171.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 51 - firstmall
+  server: 2.58.81.221
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 52 - firstmall
+  server: 64.118.158.56
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: 5c6481cdd4
+  servername: buckeye-retail-website.amazon.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 53 - firstmall
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 54 - firstmall
+  server: shop.neexbyte.ir
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
+  tls: true
+  servername: shop.neexbyte.ir
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: pokerrr.global.ssl.fastly.net
-- name: 🇩🇪 德国 (Germany) 76 - firstmall
-  server: 185.91.52.96
-  port: 8444
+- name: 🇩🇪 德国 (Germany) 55 - firstmall
+  server: nilname.com
+  port: 443
   udp: true
   type: vless
-  uuid: 0f4081e7-612b-425f-8def-eebf144aedba
+  uuid: 0446c7f2-0da8-4dd9-ace4-ba58f987498d
   tls: true
-  reality-opts:
-    public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
-    short-id: 9e15546f267baa64
-  servername: ads.x5.ru
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-reality
-- name: 🇩🇪 德国 (Germany) 77 - firstmall
+  servername: damp-sky-e317.mahdionismaill.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: damp-sky-e317.mahdionismaill.workers.dev
+- name: 🇩🇪 德国 (Germany) 56 - firstmall
+  server: 64.188.119.177
+  port: 28015
+  udp: true
+  type: hysteria2
+  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
+  sni: api-test-udp-trf.kaneki.cfd
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 57 - firstmall
+  server: rubifen.adaspoloandco.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  tls: true
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /GOrbEh
+- name: 🇩🇪 德国 (Germany) 58 - firstmall
   server: 8.211.15.144
   port: 443
   udp: true
@@ -861,24 +632,27 @@ proxies:
     short-id: f3f6de03370d26d3
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 78 - firstmall
-  server: 31.76.249.87
-  port: 443
+- name: 🇩🇪 德国 (Germany) 59 - firstmall
+  server: 31.77.8.97
+  port: 110
   udp: true
-  type: vless
-  uuid: dc9e93bc-b53a-11f1-91d3-52540030ba36
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ
-  servername: www.akamai.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 79 - firstmall
-  server: undef.network
+  type: vmess
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 60 - firstmall
+  server: 213.202.208.199
+  port: 7001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇩🇪 德国 (Germany) 61 - firstmall
+  server: cctvhikvision.center
   port: 2053
   udp: true
   type: vless
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
   tls: true
   servername: uwu.blueknightnet.qzz.io
   skip-cert-verify: false
@@ -887,21 +661,58 @@ proxies:
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
     headers:
       Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 80 - firstmall
-  server: 45.132.176.161
-  port: 9891
+- name: 🇩🇪 德国 (Germany) 62 - firstmall
+  server: 104.27.88.172
+  port: 80
   udp: true
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+- name: 🇩🇪 德国 (Germany) 63 - firstmall
+  server: cctvhikvision.center
+  port: 2052
+  udp: true
+  type: vless
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🇩🇪 德国 (Germany) 64 - firstmall
+  server: 91.107.191.165
+  port: 2
+  udp: true
+  type: vless
+  uuid: 9f15b600-ce52-447f-b388-ef70de75308e
+- name: 🇩🇪 德国 (Germany) 65 - firstmall
+  server: arcturus.yokkastars.com
+  port: 40443
+  udp: true
+  type: vless
+  uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+    public-key: w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4
+    short-id: db46e2946fc466fd
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 66 - firstmall
+  server: freesocks.work
+  port: 2052
+  udp: true
+  type: vless
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -973,20 +784,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 64 - firstmall
   - 🇩🇪 德国 (Germany) 65 - firstmall
   - 🇩🇪 德国 (Germany) 66 - firstmall
-  - 🇩🇪 德国 (Germany) 67 - firstmall
-  - 🇩🇪 德国 (Germany) 68 - firstmall
-  - 🇩🇪 德国 (Germany) 69 - firstmall
-  - 🇩🇪 德国 (Germany) 70 - firstmall
-  - 🇩🇪 德国 (Germany) 71 - firstmall
-  - 🇩🇪 德国 (Germany) 72 - firstmall
-  - 🇩🇪 德国 (Germany) 73 - firstmall
-  - 🇩🇪 德国 (Germany) 74 - firstmall
-  - 🇩🇪 德国 (Germany) 75 - firstmall
-  - 🇩🇪 德国 (Germany) 76 - firstmall
-  - 🇩🇪 德国 (Germany) 77 - firstmall
-  - 🇩🇪 德国 (Germany) 78 - firstmall
-  - 🇩🇪 德国 (Germany) 79 - firstmall
-  - 🇩🇪 德国 (Germany) 80 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1058,19 +855,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 64 - firstmall
   - 🇩🇪 德国 (Germany) 65 - firstmall
   - 🇩🇪 德国 (Germany) 66 - firstmall
-  - 🇩🇪 德国 (Germany) 67 - firstmall
-  - 🇩🇪 德国 (Germany) 68 - firstmall
-  - 🇩🇪 德国 (Germany) 69 - firstmall
-  - 🇩🇪 德国 (Germany) 70 - firstmall
-  - 🇩🇪 德国 (Germany) 71 - firstmall
-  - 🇩🇪 德国 (Germany) 72 - firstmall
-  - 🇩🇪 德国 (Germany) 73 - firstmall
-  - 🇩🇪 德国 (Germany) 74 - firstmall
-  - 🇩🇪 德国 (Germany) 75 - firstmall
-  - 🇩🇪 德国 (Germany) 76 - firstmall
-  - 🇩🇪 德国 (Germany) 77 - firstmall
-  - 🇩🇪 德国 (Germany) 78 - firstmall
-  - 🇩🇪 德国 (Germany) 79 - firstmall
-  - 🇩🇪 德国 (Germany) 80 - firstmall
 rules:
 - MATCH,PROXIES

@@ -4,24 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 - firstmall",
-      "server": "141.164.45.187",
-      "server_port": 9090,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 02 - firstmall",
-      "server": "141.164.45.187",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
       "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 03 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 01 - firstmall",
       "server": "140.238.2.250",
       "server_port": 443,
       "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
@@ -29,23 +13,55 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 04 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 02 - firstmall",
+      "server": "141.164.45.187",
+      "server_port": 6679,
+      "method": "aes-256-gcm",
+      "password": "TEzjfAYq2IjtuoS"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 03 - firstmall",
       "server": "141.164.45.187",
       "server_port": 9101,
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY"
     },
     {
+      "type": "trojan",
+      "tag": "🇰🇷 韩国 (South Korea) 04 - firstmall",
+      "server": "balanced-stag.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "balanced-stag.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 05 - firstmall",
       "server": "141.164.45.187",
-      "server_port": 8000,
+      "server_port": 8008,
       "method": "aes-256-gcm",
-      "password": "KixLvKzwjekG00rm"
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 06 - firstmall",
+      "server": "131.186.19.174",
+      "server_port": 50160,
+      "password": "7302ad33229de166d393cd56143a1e4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me",
+        "insecure": true
+      }
     },
     {
       "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 06 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - firstmall",
       "server": "132.145.80.230",
       "server_port": 80,
       "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
@@ -56,76 +72,85 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 07 - firstmall",
-      "server": "vpn-kr-002.fastervpn.world",
+      "type": "trojan",
+      "tag": "🇰🇷 韩国 (South Korea) 08 - firstmall",
+      "server": "engaging-toucan.rooster465.autos",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ9wR5tF6vB3z",
+      "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-kr-002.fastervpn.world",
+        "server_name": "engaging-toucan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇰🇷 韩国 (South Korea) 09 - firstmall",
+      "server": "main-fawn.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "main-fawn.rooster465.autos",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 08 - firstmall",
-      "server": "kr2-r.link-t7.com",
-      "server_port": 10047,
-      "uuid": "58C828CD-3EBA-46F9-B297-16003D7A6E68",
+      "tag": "🇰🇷 韩国 (South Korea) 10 - firstmall",
+      "server": "34.158.210.177",
+      "server_port": 443,
+      "uuid": "700a7a0e-3f27-406c-81d1-aa1abe411af8",
       "tls": {
         "enabled": true,
-        "server_name": "s0.awsstatic.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE",
-          "short_id": "686c0ef0"
+          "public_key": "kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8",
+          "short_id": "3fd0a8ddef3ae5c6"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "update"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 09 - firstmall",
-      "server": "131.186.19.174",
-      "server_port": 50160,
-      "password": "7302ad33229de166d393cd56143a1e4c",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 10 - firstmall",
-      "server": "152.67.200.82",
-      "server_port": 50160,
-      "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.tinkoff.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇰🇷 韩国 (South Korea) 11 - firstmall",
-      "server": "141.164.45.187",
-      "server_port": 2376,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
+      "server": "47.80.14.8",
+      "server_port": 443,
+      "uuid": "581cb8c3-dadb-4e10-a18b-5e79bfe7bd93",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OBIHAXdhfYJ0PWsZjy3QYPRjTfMQlvjmBsTf1CT671w",
+          "short_id": "71110d3f7ef57760"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇰🇷 韩国 (South Korea) 12 - firstmall",
+      "server": "noted-cougar.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "noted-cougar.rooster465.autos",
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 12 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 13 - firstmall",
       "server": "152.70.237.123",
       "server_port": 2053,
       "password": "maintell",
@@ -136,41 +161,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 13 - firstmall",
-      "server": "132.226.226.189",
-      "server_port": 50160,
-      "password": "1671a252e2a97dc2bda4e515475931da",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "🇰🇷 韩国 (South Korea) 14 - firstmall",
-      "server": "47.80.14.8",
-      "server_port": 443,
-      "uuid": "581cb8c3-dadb-4e10-a18b-5e79bfe7bd93",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OBIHAXdhfYJ0PWsZjy3QYPRjTfMQlvjmBsTf1CT671w",
-          "short_id": "71110d3f7ef57760"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 15 - firstmall",
       "server": "3.39.4.109",
       "server_port": 18967,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
@@ -190,12 +182,36 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 15 - firstmall",
+      "server": "132.226.226.189",
+      "server_port": 50160,
+      "password": "1671a252e2a97dc2bda4e515475931da",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇰🇷 韩国 (South Korea) 16 - firstmall",
-      "server": "141.164.45.187",
-      "server_port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
+      "server": "34.47.83.187",
+      "server_port": 443,
+      "uuid": "cb2abff3-5fe6-4b5a-aa19-5739deb285b6",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA",
+          "short_id": "8685f8b4d9f4f51e"
+        }
+      }
     },
     {
       "type": "vless",
@@ -218,8 +234,32 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇰🇷 韩国 (South Korea) 18 - firstmall",
+      "server": "152.67.200.82",
+      "server_port": 50160,
+      "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
+      "tls": {
+        "enabled": true,
+        "server_name": "vk.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇰🇷 韩国 (South Korea) 19 - firstmall",
+      "server": "liked-eft.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "liked-eft.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 20 - firstmall",
       "server": "3.39.4.109",
       "server_port": 13672,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
@@ -229,7 +269,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -240,15 +280,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 19 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 21 - firstmall",
       "server": "141.164.45.187",
-      "server_port": 8888,
+      "server_port": 8119,
       "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "type": "trojan",
-      "tag": "🇰🇷 韩国 (South Korea) 20 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 22 - firstmall",
+      "server": "pretty-rat.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "pretty-rat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇰🇷 韩国 (South Korea) 23 - firstmall",
       "server": "154.90.62.70",
       "server_port": 56127,
       "password": "p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B",
@@ -260,15 +312,35 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 21 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 24 - firstmall",
       "server": "141.164.45.187",
-      "server_port": 5001,
+      "server_port": 7002,
       "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 25 - firstmall",
+      "server": "vpn-kr-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ9wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-kr-002.fastervpn.world",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 26 - firstmall",
+      "server": "141.164.45.187",
+      "server_port": 2376,
+      "method": "aes-256-gcm",
+      "password": "faBAoD54k87UJG7"
     },
     {
       "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 22 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 27 - firstmall",
       "server": "silversbgfgov.vip40.wogbcnmnagfwgov.com",
       "server_port": 11240,
       "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
@@ -276,37 +348,44 @@
       "alter_id": 2
     },
     {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 23 - firstmall",
-      "server": "goldcnmltyljgfwgov.vip64.wogcnmnnagfwgov.com",
-      "server_port": 11264,
-      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
-      "security": "auto",
-      "alter_id": 2
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 28 - firstmall",
+      "server": "193.122.115.52",
+      "server_port": 20000,
+      "password": "C0DD7bgChaltqnh/T2az6ijM",
+      "tls": {
+        "enabled": true,
+        "server_name": "rmgyvpn.rest",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "C0DD7bgChaltqnh/T2az6ijM"
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 24 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 29 - firstmall",
       "server": "141.164.45.187",
-      "server_port": 6679,
+      "server_port": 5001,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 30 - firstmall",
+      "server": "141.164.45.187",
+      "server_port": 6697,
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 25 - firstmall",
+      "tag": "🇰🇷 韩国 (South Korea) 31 - firstmall",
       "server": "141.164.45.187",
-      "server_port": 7002,
+      "server_port": 7001,
       "method": "aes-256-gcm",
       "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 26 - firstmall",
-      "server": "141.164.45.187",
-      "server_port": 8091,
-      "method": "aes-256-gcm",
-      "password": "PCnnH6SQSnfoS27"
     },
     {
       "type": "selector",
@@ -338,7 +417,12 @@
         "🇰🇷 韩国 (South Korea) 23 - firstmall",
         "🇰🇷 韩国 (South Korea) 24 - firstmall",
         "🇰🇷 韩国 (South Korea) 25 - firstmall",
-        "🇰🇷 韩国 (South Korea) 26 - firstmall"
+        "🇰🇷 韩国 (South Korea) 26 - firstmall",
+        "🇰🇷 韩国 (South Korea) 27 - firstmall",
+        "🇰🇷 韩国 (South Korea) 28 - firstmall",
+        "🇰🇷 韩国 (South Korea) 29 - firstmall",
+        "🇰🇷 韩国 (South Korea) 30 - firstmall",
+        "🇰🇷 韩国 (South Korea) 31 - firstmall"
       ]
     },
     {
@@ -370,7 +454,12 @@
         "🇰🇷 韩国 (South Korea) 23 - firstmall",
         "🇰🇷 韩国 (South Korea) 24 - firstmall",
         "🇰🇷 韩国 (South Korea) 25 - firstmall",
-        "🇰🇷 韩国 (South Korea) 26 - firstmall"
+        "🇰🇷 韩国 (South Korea) 26 - firstmall",
+        "🇰🇷 韩国 (South Korea) 27 - firstmall",
+        "🇰🇷 韩国 (South Korea) 28 - firstmall",
+        "🇰🇷 韩国 (South Korea) 29 - firstmall",
+        "🇰🇷 韩国 (South Korea) 30 - firstmall",
+        "🇰🇷 韩国 (South Korea) 31 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

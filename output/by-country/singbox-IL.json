@@ -46,47 +46,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇮🇱 以色列 (Israel) 03 - firstmall",
-      "server": "2.26.80.235",
-      "server_port": 443,
-      "uuid": "cb0ccf90-0e8f-4621-b042-4e35c797de2b",
-      "flow": "xtls-rprx-vision",
+      "server": "129.159.156.109",
+      "server_port": 50160,
+      "password": "f25f19f29ce3fb53a35bf1b35b452a43",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_gjcl5q-hkJIFmKYSY9DbBcSiBHK3YUAKOfZzZqnkT8",
-          "short_id": "c17f1d8951b3bf90"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 04 - firstmall",
-      "server": "177.3.208.65",
-      "server_port": 443,
-      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
-      "tls": {
-        "enabled": true,
-        "server_name": "tgmansion.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless-il",
-        "headers": {
-          "Host": "tgmansion.site"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
@@ -96,8 +64,7 @@
         "auto",
         "🇮🇱 以色列 (Israel) 01 - firstmall",
         "🇮🇱 以色列 (Israel) 02 - firstmall",
-        "🇮🇱 以色列 (Israel) 03 - firstmall",
-        "🇮🇱 以色列 (Israel) 04 - firstmall"
+        "🇮🇱 以色列 (Israel) 03 - firstmall"
       ]
     },
     {
@@ -106,8 +73,7 @@
       "outbounds": [
         "🇮🇱 以色列 (Israel) 01 - firstmall",
         "🇮🇱 以色列 (Israel) 02 - firstmall",
-        "🇮🇱 以色列 (Israel) 03 - firstmall",
-        "🇮🇱 以色列 (Israel) 04 - firstmall"
+        "🇮🇱 以色列 (Israel) 03 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

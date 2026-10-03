@@ -5,21 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - firstmall
-  server: undef.network
-  port: 2053
+  server: ccs2g.pai50288.uk
+  port: 443
   udp: true
   type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   tls: true
-  servername: uwu.blueknightnet.qzz.io
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
+    path: /pai50288
 - name: 🌐 其他地区 (Other) 02 - firstmall
-  server: cctvhikvision.center
+  server: uwu.blueknightnet.qzz.io
   port: 2052
   udp: true
   type: vless
@@ -30,16 +29,32 @@ proxies:
     headers:
       Host: uwu.blueknightnet.qzz.io
 - name: 🌐 其他地区 (Other) 03 - firstmall
-  server: cctvhikvision.center
+  server: hikvision-plus.com
   port: 2052
   udp: true
   type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
   network: ws
   ws-opts:
     path: /@BlueKnight_net--@BlueKnight_net
     headers:
       Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 04 - firstmall
+  server: 104.17.77.77
+  port: 8443
+  udp: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +63,7 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - firstmall
   - 🌐 其他地区 (Other) 02 - firstmall
   - 🌐 其他地区 (Other) 03 - firstmall
+  - 🌐 其他地区 (Other) 04 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +72,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - firstmall
   - 🌐 其他地区 (Other) 02 - firstmall
   - 🌐 其他地区 (Other) 03 - firstmall
+  - 🌐 其他地区 (Other) 04 - firstmall
 rules:
 - MATCH,PROXIES
