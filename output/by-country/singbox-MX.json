@@ -4,20 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - firstmall",
-      "server": "89.39.161.157",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
+      "type": "trojan",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - firstmall",
+      "server": "211.20.156.191",
+      "server_port": 28121,
+      "password": "i99Cef",
       "tls": {
         "enabled": true,
-        "server_name": "aksai.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws"
+        "server_name": "ctldl.windowsupdate.com",
+        "insecure": true
       }
     },
     {
@@ -25,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - firstmall"
+        "🇲🇽 墨西哥 (Mexico) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - firstmall"
+        "🇲🇽 墨西哥 (Mexico) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
