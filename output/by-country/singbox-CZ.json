@@ -4,52 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇨🇿 捷克 (Czech) 01 - firstmall",
-      "server": "104.21.79.199",
+      "server": "95.85.238.173",
       "server_port": 443,
-      "uuid": "38d6b629-64c2-4c31-a10d-26eb3a2a053d",
+      "password": "c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl",
       "tls": {
         "enabled": true,
-        "server_name": "lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/cxl8Wn1ylnsk63nJ0",
-        "headers": {
-          "Host": "lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - firstmall",
-      "server": "162.159.153.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
-        }
+        "server_name": "cz.h2.cleanersaz.help",
+        "insecure": true
       }
     },
     {
@@ -57,16 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - firstmall",
-        "🇨🇿 捷克 (Czech) 02 - firstmall"
+        "🇨🇿 捷克 (Czech) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - firstmall",
-        "🇨🇿 捷克 (Czech) 02 - firstmall"
+        "🇨🇿 捷克 (Czech) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

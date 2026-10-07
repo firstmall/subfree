@@ -18,20 +18,28 @@ proxies:
   servername: nvidia.com
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 02 - firstmall
-  server: netork.povrak.ir
-  port: 37523
+  server: 38.180.209.248
+  port: 443
   udp: true
-  type: vmess
-  uuid: ce0bcb75-baa7-41a7-833e-eb54a8f6a08e
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 5b5e4cbf-2366-499a-8327-0cd9918c687d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cloud.surfweb.club
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 03 - firstmall
-  server: 206.1.103.221
-  port: 42264
+  server: 151.241.226.201
+  port: 2053
   udp: true
-  type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: Rzv4KXTXvFEqeALuBgzETlujcXrzIAsrSMAevky5x8c=:hdA4n/xn83dcbzxCAxapim47QxGlbAUPQ8I1rbC2RN8=
+  type: vless
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  tls: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+    short-id: 9e419c0759b54d6f
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 04 - firstmall
   server: 78.135.73.47
   port: 443
@@ -45,18 +53,6 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 05 - firstmall
-  server: 151.241.226.201
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  tls: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-    short-id: 9e419c0759b54d6f
-  servername: www.apple.com
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,7 +62,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - firstmall
   - 🇹🇷 土耳其 (Turkey) 03 - firstmall
   - 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 05 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,6 +71,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - firstmall
   - 🇹🇷 土耳其 (Turkey) 03 - firstmall
   - 🇹🇷 土耳其 (Turkey) 04 - firstmall
-  - 🇹🇷 土耳其 (Turkey) 05 - firstmall
 rules:
 - MATCH,PROXIES
