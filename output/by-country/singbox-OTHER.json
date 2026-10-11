@@ -5,13 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇰 斯洛伐克 (Slovakia) 01 - firstmall",
-      "server": "80.243.228.84",
-      "server_port": 2085,
-      "uuid": "84a7add6-dab3-4af4-900b-192e3e338875",
+      "tag": "🌐 其他地区 (Other) 01 - firstmall",
+      "server": "104.21.93.52",
+      "server_port": 2052,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
       }
     },
     {
@@ -19,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇰 斯洛伐克 (Slovakia) 01 - firstmall"
+        "🌐 其他地区 (Other) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇰 斯洛伐克 (Slovakia) 01 - firstmall"
+        "🌐 其他地区 (Other) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
