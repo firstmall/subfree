@@ -6,14 +6,34 @@
     {
       "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - firstmall",
-      "server": "218.237.185.234",
+      "server": "p141.panda001.net",
       "server_port": 4652,
       "method": "aes-256-cfb",
       "password": "qwerREWQ@@"
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - firstmall",
+      "server": "177.3.208.65",
+      "server_port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgmansion.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless-tr"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall",
       "server": "fujrdt.d6f54hd1j.cc",
       "server_port": 443,
       "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
@@ -24,11 +44,7 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
+        "type": "ws"
       }
     },
     {
@@ -37,7 +53,8 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall"
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - firstmall",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall"
       ]
     },
     {
@@ -45,7 +62,8 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - firstmall",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall"
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - firstmall",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

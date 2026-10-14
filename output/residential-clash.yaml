@@ -5,13 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - firstmall
-  server: 218.237.185.234
+  server: p141.panda001.net
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall
+- name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - firstmall
+  server: 177.3.208.65
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  tls: true
+  servername: tgmansion.site
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /vless-tr
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall
   server: fujrdt.d6f54hd1j.cc
   port: 443
   udp: true
@@ -25,21 +38,21 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: fujrdt.d6f54hd1j.cc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - firstmall
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - firstmall
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - firstmall
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - firstmall
 rules:
 - MATCH,PROXIES

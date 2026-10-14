@@ -4,17 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall",
-      "server": "support.zoom.us",
-      "server_port": 80,
-      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
+      "type": "vmess",
+      "tag": "🇨🇳 CN 01 - firstmall",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "2b910c43-51e3-4b15-9be8-b658106ba35e",
+      "security": "auto",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "free.sahanwickramasinghe.me"
-        }
+        "type": "ws"
       }
     },
     {
@@ -22,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall"
+        "🇨🇳 CN 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall"
+        "🇨🇳 CN 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
