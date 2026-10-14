@@ -5,84 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - firstmall
-  server: 188.114.97.6
+  server: 68.183.227.4
   port: 8080
   udp: true
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  network: ws
-  ws-opts:
-    path: /138.2.74.219-28616
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇸🇬 新加坡 (Singapore) 02 - firstmall
-  server: 104.21.70.21
-  port: 443
-  udp: true
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  tls: true
-  servername: nautica-cff.kloningstrife002.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /138.2.74.219-28616
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 03 - firstmall
-  server: 104.21.70.21
-  port: 443
-  udp: true
-  type: vless
-  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
-  tls: true
-  servername: fornewiran.ade-1000.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
-    headers:
-      Host: fornewiran.ade-1000.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 04 - firstmall
-  server: 104.21.68.250
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3cd23424-7182-4f37-9461-7701917791f6
-  tls: true
-  servername: node-562276409-ece9be.account12.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/LoojiwDChctBr67OEQH2dfP05?ed=2560
-    headers:
-      Host: node-562276409-ece9be.account12.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 05 - firstmall
-  server: 128.241.25.11
-  port: 30021
-  udp: true
-  type: vless
-  uuid: fd202fce-8a77-43b0-9e96-6a15e638b087
-  tls: true
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 06 - firstmall
-  server: 149.88.23.207
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 07 - firstmall
   server: 149.88.23.202
   port: 18000
   udp: true
@@ -90,70 +19,73 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 08 - firstmall
+- name: 🇸🇬 新加坡 (Singapore) 03 - firstmall
   server: 68.183.227.45
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 09 - firstmall
-  server: 128.199.172.224
-  port: 8080
+- name: 🇸🇬 新加坡 (Singapore) 04 - firstmall
+  server: ww11.levikogjgfdd.ir
+  port: 18000
   udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 10 - firstmall
-  server: 45.128.12.20
-  port: 14249
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9epp3o9ng8ej59uv
-- name: 🇸🇬 新加坡 (Singapore) 11 - firstmall
-  server: 68.183.227.4
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 12 - firstmall
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 05 - firstmall
   server: 68.183.227.236
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 13 - firstmall
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 14 - firstmall
-  server: 146.235.16.130
-  port: 19825
-  udp: true
-  type: vless
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  servername: sg2-8sb.6121999.dpdns.org
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 15 - firstmall
+- name: 🇸🇬 新加坡 (Singapore) 06 - firstmall
   server: 68.183.235.122
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 16 - firstmall
+- name: 🇸🇬 新加坡 (Singapore) 07 - firstmall
+  server: 138.2.73.238
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: f87376e17da040ed04c9665ce8972930
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 08 - firstmall
+  server: 139.180.146.200
+  port: 8886
+  udp: true
+  type: trojan
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 139.180.146.200
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 09 - firstmall
+  server: glorious-glider.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: glorious-glider.rooster465.autos
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 10 - firstmall
+  server: 54.251.9.130
+  port: 24146
+  udp: true
+  type: vless
+  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
+    short-id: 7205d9079521832c
+  servername: www.intel.com
+  client-fingerprint: edge
+- name: 🇸🇬 新加坡 (Singapore) 11 - firstmall
   server: 67.159.52.81
   port: 443
   udp: true
@@ -166,126 +98,14 @@ proxies:
     short-id: feedbacc
   servername: sg.fasti.win
   client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 17 - firstmall
-  server: 54.169.200.246
-  port: 41688
+- name: 🇸🇬 新加坡 (Singapore) 12 - firstmall
+  server: 128.199.172.224
+  port: 8080
   udp: true
-  type: vless
-  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
-    short-id: 7f342137c20387
-  servername: www.intel.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 18 - firstmall
-  server: cdn-dynmedia.shalana.shop
-  port: 119
-  udp: true
-  type: trojan
-  password: A7GQgrEcSn
-  sni: cdn-dynmedia.shalana.shop
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 19 - firstmall
-  server: 104.64.205.103
-  port: 443
-  udp: true
-  type: vless
-  uuid: d3ad7253-2dbd-42fd-9b07-04caea38de54
-  tls: true
-  servername: cdn-dynmedia.shalana.shop
-  skip-cert-verify: false
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 20 - firstmall
-  server: glorious-glider.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: glorious-glider.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 21 - firstmall
-  server: 47.131.250.125
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: simple-molly.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 22 - firstmall
-  server: 139.180.146.200
-  port: 8886
-  udp: true
-  type: trojan
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  sni: 139.180.146.200
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 23 - firstmall
-  server: 54.151.181.75
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: moral-basilisk.rooster465.autos
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 24 - firstmall
-  server: 86.38.247.109
-  port: 2087
-  udp: true
-  type: trojan
-  password: sshs8_6481354771
-  sni: ul-singapore1.09vpn.com
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 25 - firstmall
-  server: 3.0.111.82
-  port: 10574
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: edge
-- name: 🇸🇬 新加坡 (Singapore) 26 - firstmall
-  server: 56.10.9.77
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: inviting-ferret.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 27 - firstmall
-  server: 139.162.27.96
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  tls: true
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 28 - firstmall
-  server: 34.87.113.18
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-  tls: true
-  reality-opts:
-    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
-    short-id: eb97ce837da2f6ad
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 29 - firstmall
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 13 - firstmall
   server: 206.206.78.36
   port: 443
   udp: true
@@ -297,29 +117,8 @@ proxies:
     public-key: UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ
     short-id: 133a3f10a1581047
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 30 - firstmall
-  server: 3.1.252.137
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: brave-tomcat.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 31 - firstmall
-  server: 3.0.111.82
-  port: 12972
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 32 - firstmall
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 14 - firstmall
   server: 5.34.177.164
   port: 443
   udp: true
@@ -332,49 +131,63 @@ proxies:
     short-id: b2efed6d157e7bb0
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 33 - firstmall
-  server: 45.77.241.190
-  port: 8441
+- name: 🇸🇬 新加坡 (Singapore) 15 - firstmall
+  server: 34.87.113.18
+  port: 443
   udp: true
   type: vless
-  uuid: cdbac875-8f1d-42a1-b500-3ce797a6a167
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
   tls: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 34 - firstmall
-  server: 54.251.9.130
-  port: 24146
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇸🇬 新加坡 (Singapore) 16 - firstmall
+  server: 3.0.111.82
+  port: 10574
   udp: true
   type: vless
-  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-    short-id: 7205d9079521832c
-  servername: www.intel.com
-  client-fingerprint: safari
-- name: 🇸🇬 新加坡 (Singapore) 35 - firstmall
-  server: 185.220.68.226
-  port: 20205
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 17 - firstmall
+  server: musical-mouse.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: musical-mouse.rooster465.autos
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 18 - firstmall
+  server: brave-tomcat.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: brave-tomcat.rooster465.autos
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 19 - firstmall
+  server: 139.162.27.96
+  port: 2096
   udp: true
   type: vless
-  uuid: c4c484d9-69e5-49ea-bf96-bdee8ece865b
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   tls: true
-  servername: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
+  servername: free-server.techsonic.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /free-server.techsonic.dev
     headers:
-      Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 36 - firstmall
-  server: 45.118.133.249
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 20 - firstmall
+  server: free.nadun.store
   port: 443
   udp: true
   type: vless
@@ -385,17 +198,33 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: free.nadun.store
-- name: 🇸🇬 新加坡 (Singapore) 37 - firstmall
-  server: musical-mouse.rooster465.autos
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 21 - firstmall
+  server: funagfrdfs.alixxplay.com
+  port: 57541
   udp: true
-  type: trojan
-  password: UX82473651
-  sni: musical-mouse.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 38 - firstmall
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
+    short-id: 22b19630280c3f
+  servername: www.lamer.com.sg
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 22 - firstmall
+  server: 54.169.200.246
+  port: 41688
+  udp: true
+  type: vless
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
+    short-id: 7f342137c20387
+  servername: www.intel.com
+  client-fingerprint: ios
+- name: 🇸🇬 新加坡 (Singapore) 23 - firstmall
   server: eu3.998998.best
   port: 443
   udp: true
@@ -411,6 +240,82 @@ proxies:
     path: /aiaiai
     headers:
       Host: server40.9966338.xyz
+- name: 🇸🇬 新加坡 (Singapore) 24 - firstmall
+  server: inviting-ferret.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: inviting-ferret.rooster465.autos
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 25 - firstmall
+  server: moral-basilisk.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: moral-basilisk.rooster465.autos
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 26 - firstmall
+  server: 3.0.111.82
+  port: 17623
+  udp: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 27 - firstmall
+  server: simple-molly.rooster465.autos
+  port: 443
+  udp: true
+  type: trojan
+  password: UX82473651
+  sni: simple-molly.rooster465.autos
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 28 - firstmall
+  server: 3.0.111.82
+  port: 12972
+  udp: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: ios
+- name: 🇸🇬 新加坡 (Singapore) 29 - firstmall
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  udp: true
+  type: vless
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 30 - firstmall
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  udp: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+  servername: www.lamer.com.sg
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -446,14 +351,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 28 - firstmall
   - 🇸🇬 新加坡 (Singapore) 29 - firstmall
   - 🇸🇬 新加坡 (Singapore) 30 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 31 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 32 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 33 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 34 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 35 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 36 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 37 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 38 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -489,13 +386,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 28 - firstmall
   - 🇸🇬 新加坡 (Singapore) 29 - firstmall
   - 🇸🇬 新加坡 (Singapore) 30 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 31 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 32 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 33 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 34 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 35 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 36 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 37 - firstmall
-  - 🇸🇬 新加坡 (Singapore) 38 - firstmall
 rules:
 - MATCH,PROXIES

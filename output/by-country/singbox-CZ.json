@@ -6,53 +6,6 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - firstmall",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "eb24c3b4-7936-45e2-a253-e54fd1955a7f",
-      "tls": {
-        "enabled": true,
-        "server_name": "c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/5XS6voHZVYs7mzpMKkTEfkiDauqBCt0S?ed=2560",
-        "headers": {
-          "Host": "c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - firstmall",
-      "server": "5.39.202.125",
-      "server_port": 443,
-      "uuid": "ace33fb8-c593-4b17-8f72-f3359b6e9638",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "czekkk.loknietotop.digital",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM",
-          "short_id": "f19e02a2fb573c18"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - firstmall",
       "server": "195.123.245.241",
       "server_port": 443,
       "uuid": "7c053ca8-38cc-45e2-930c-eda1fd66f903",
@@ -76,18 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - firstmall",
-        "🇨🇿 捷克 (Czech) 02 - firstmall",
-        "🇨🇿 捷克 (Czech) 03 - firstmall"
+        "🇨🇿 捷克 (Czech) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - firstmall",
-        "🇨🇿 捷克 (Czech) 02 - firstmall",
-        "🇨🇿 捷克 (Czech) 03 - firstmall"
+        "🇨🇿 捷克 (Czech) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
