@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - firstmall
-  server: 119.46.51.45
-  port: 37515
-  udp: true
-  type: vmess
-  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
-  alterId: 0
-  cipher: auto
-- name: 🇹🇭 泰国 (Thailand) 02 - firstmall
   server: support.zoom.us.support.zoom.us.v2ray.simspeedup.com
   port: 80
   udp: true
@@ -23,6 +15,14 @@ proxies:
     path: /ws
     headers:
       Host: support.zoom.us.support.zoom.us.v2ray.simspeedup.com
+- name: 🇹🇭 泰国 (Thailand) 02 - firstmall
+  server: 119.46.51.45
+  port: 37515
+  udp: true
+  type: vmess
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+  alterId: 0
+  cipher: auto
 - name: 🇹🇭 泰国 (Thailand) 03 - firstmall
   server: 188.114.97.6
   port: 443
@@ -58,14 +58,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
-- name: 🇹🇭 泰国 (Thailand) 06 - firstmall
-  server: silversbgfgov.vip43.wogbcnmnagfwgov.com
-  port: 11243
-  udp: true
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,7 +68,6 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 03 - firstmall
   - 🇹🇭 泰国 (Thailand) 04 - firstmall
   - 🇹🇭 泰国 (Thailand) 05 - firstmall
-  - 🇹🇭 泰国 (Thailand) 06 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -87,6 +78,5 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 03 - firstmall
   - 🇹🇭 泰国 (Thailand) 04 - firstmall
   - 🇹🇭 泰国 (Thailand) 05 - firstmall
-  - 🇹🇭 泰国 (Thailand) 06 - firstmall
 rules:
 - MATCH,PROXIES

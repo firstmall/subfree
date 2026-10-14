@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - firstmall
-  server: 104.21.93.52
-  port: 2052
+- name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall
+  server: free.sahanwickramasinghe.me
+  port: 80
   udp: true
   type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
+    path: /
     headers:
-      Host: uwu.blueknightnet.qzz.io
+      Host: free.sahanwickramasinghe.me
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - firstmall
+  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - firstmall
+  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall
 rules:
 - MATCH,PROXIES

@@ -5,15 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - firstmall",
-      "server": "104.21.93.52",
-      "server_port": 2052,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall",
+      "server": "free.sahanwickramasinghe.me",
+      "server_port": 80,
+      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "free.sahanwickramasinghe.me"
         }
       }
     },
@@ -22,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - firstmall"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - firstmall"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
