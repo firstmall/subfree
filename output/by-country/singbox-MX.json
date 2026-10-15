@@ -4,30 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - firstmall",
-      "server": "45.205.27.78",
-      "server_port": 10443,
-      "password": "9b93bfe9-6de2-4d4d-bd9d-8b3fda9f31b0",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.205.27.78",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - firstmall",
+      "server": "64.177.90.30",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - firstmall"
+        "🇲🇽 墨西哥 (Mexico) 01 - firstmall"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - firstmall"
+        "🇲🇽 墨西哥 (Mexico) 01 - firstmall"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
